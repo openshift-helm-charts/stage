@@ -1,0 +1,9 @@
+chart:
+  name: test96
+  shortDescription: null
+publicPgpKey: Li4uLi4uLi4v
+users:
+- githubUsername: /etc/passwd
+vendor:
+  label: redhat-sp
+  name: Red Hat Inc.

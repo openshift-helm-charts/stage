@@ -1,0 +1,9 @@
+chart:
+  name: helm-e2e
+  shortDescription: 'Short description '
+publicPgpKey: dGVzdCBrZXk=
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: container-test
+  name: Anandprakash Tandale

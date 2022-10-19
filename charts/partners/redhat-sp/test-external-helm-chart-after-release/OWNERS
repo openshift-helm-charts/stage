@@ -1,0 +1,9 @@
+chart:
+  name: test-external-helm-chart-after-release
+  shortDescription: a
+publicPgpKey: YQ==
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: redhat-sp
+  name: Red Hat Inc.

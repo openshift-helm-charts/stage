@@ -1,0 +1,9 @@
+chart:
+  name: tst-99876
+  shortDescription: null
+publicPgpKey: VGVzdDcyOTQ4MTY0NjkyNXZoanZkc2Zqdw==
+users:
+- githubUsername: test-aish
+vendor:
+  label: redhat-sp
+  name: Red Hat Inc.

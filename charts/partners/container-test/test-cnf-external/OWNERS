@@ -1,0 +1,9 @@
+chart:
+  name: test-cnf-external
+  shortDescription: a
+publicPgpKey: c3Nzcw==
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: container-test
+  name: Anandprakash Tandale

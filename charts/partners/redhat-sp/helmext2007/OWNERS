@@ -1,0 +1,9 @@
+chart:
+  name: helmext2007
+  shortDescription: null
+publicPgpKey: null
+users:
+- githubUsername: rnargotr
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.

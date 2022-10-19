@@ -1,0 +1,9 @@
+chart:
+  name: test-cnf-internal
+  shortDescription: a
+publicPgpKey: amZrc2hqc2hramhna2pkc2hsa2pk
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: container-test
+  name: Anandprakash Tandale

@@ -1,0 +1,9 @@
+chart:
+  name: chart-helm-char-external
+  shortDescription: null
+publicPgpKey: null
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: redhat-sp
+  name: Red Hat Inc.

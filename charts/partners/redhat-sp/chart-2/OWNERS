@@ -1,0 +1,9 @@
+chart:
+  name: chart-2
+  shortDescription: '@'
+publicPgpKey: YQ==
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: redhat-sp
+  name: Red Hat Inc.

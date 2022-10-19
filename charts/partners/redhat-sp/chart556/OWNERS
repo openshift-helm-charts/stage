@@ -1,0 +1,9 @@
+chart:
+  name: chart556
+  shortDescription: null
+publicPgpKey: null
+users:
+- githubUsername: test
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
