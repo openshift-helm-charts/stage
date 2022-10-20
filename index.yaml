@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  helm-demo-helm-demo-chart:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:4d144b8ab80cd33962743318deb50c25ac582de570b7067f8ae7844088872db9
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-03T12:15:10.735886+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: helm-demo-chart
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-helm-demo-chart-0.1.0/helm-demo-helm-demo-chart-0.1.0.tgz
+    version: 0.1.0
+  helm-demo-test-morning:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:48ff99db13610af7abfa179673335678872d8c91c144cfda47c83b2585794f70
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-03T08:27:15.908902+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: test-morning
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
+    version: 0.1.0
+generated: '2021-05-03T12:15:10.735886+00:00'
