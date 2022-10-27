@@ -1,5 +1,38 @@
 apiVersion: v1
 entries:
+  hashicorp-vault:
+  - annotations:
+      charts.openshift.io/digest: sha256:e976630aa2d8a6aed25284b627b0e9255a942e1aec456657357f9e6e81ec13da
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-27T06:46:54.128874+00:00'
+      charts.openshift.io/provider: HashiCorp
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-27T06:47:34.681866+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.2'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.9.0
+    description: Official HashiCorp Vault Chart
+    digest: 840f81ece382ad64a0e9b6e07b799931c030eb60985c20bab2ea57311b84c08b
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.14.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/hashicorp-vault-0.18.0/hashicorp-vault-0.18.0.tgz
+    version: 0.18.0
   helm-demo-helm-demo-chart:
   - annotations:
       helm-chart.openshift.io/digest: sha256:4d144b8ab80cd33962743318deb50c25ac582de570b7067f8ae7844088872db9
@@ -34,4 +67,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
     version: 0.1.0
-generated: '2021-05-03T12:15:10.735886+00:00'
+generated: '2022-10-27T06:47:34.681866+00:00'
