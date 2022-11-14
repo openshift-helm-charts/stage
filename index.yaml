@@ -1,0 +1,88 @@
+apiVersion: v1
+entries:
+  anikifor-demo-anikifor-external-chart:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:28801d8d72d838da1ee05f0809fcc5a2d2b9c6cd27ba3e84c477e76f8916aaa1
+      helm-chart.openshift.io/lastCertifiedTime: 2021-04-22 10:49:29.714918174 +0000
+        UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-04-28T07:17:49.004521+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: anikifor-external-chart
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/anikifor-demo-anikifor-external-chart-0.1.0/anikifor-demo-anikifor-external-chart-0.1.0.tgz
+    version: 0.1.0
+  anikifor-demo-helm-demo2:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:28801d8d72d838da1ee05f0809fcc5a2d2b9c6cd27ba3e84c477e76f8916aaa1
+      helm-chart.openshift.io/lastCertifiedTime: 2021-04-22 10:49:29.714918174 +0000
+        UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-04-28T12:33:01.738421+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: helm-demo2
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/anikifor-demo-helm-demo2-0.1.0/anikifor-demo-helm-demo2-0.1.0.tgz
+    version: 0.1.0
+  atiwary-containers-dxp-demo-helm-1:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:d2255f26ce6337aacb00b7619ce8a6f301ff4a5b9e4406a5f5496989bb25df17
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-11T09:08:06.341186+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: dxp-demo-helm-1
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/charts/releases/download/atiwary-containers-dxp-demo-helm-1-0.1.0/atiwary-containers-dxp-demo-helm-1-0.1.0.tgz
+    version: 0.1.0
+  atiwary-containers-helm-test-project-github:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:103755a063988ec008d7ac05ff3ef3063f68abe6f27b52ee3f43a8d56c6bb592
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-03T14:01:32.254793+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: helm-test-project-github
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/atiwary-containers-helm-test-project-github-0.1.0/atiwary-containers-helm-test-project-github-0.1.0.tgz
+    version: 0.1.0
+  atiwary-containers-tests-external:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:f69c996ad0b4f18d2aa14591e9f2071da30aa31a562a7daad6944a57e34c2687
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-05T13:53:05.866124+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: tests-external
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/charts/releases/download/atiwary-containers-tests-external-0.1.0/atiwary-containers-tests-external-0.1.0.tgz
+    version: 0.1.0
+generated: '2021-05-11T09:08:06.341186+00:00'
