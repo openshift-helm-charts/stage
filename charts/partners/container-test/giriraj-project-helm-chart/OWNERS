@@ -1,9 +1,10 @@
 chart:
   name: giriraj-project-helm-chart
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: sawalgiriraj
 vendor:
   label: container-test
   name: Anandprakash Tandale
