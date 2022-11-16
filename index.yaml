@@ -1,5 +1,38 @@
 apiVersion: v1
 entries:
+  container-test-giriraj-project-helm-chart:
+  - annotations:
+      charts.openshift.io/digest: sha256:6d4bbedf9bcb725739af7c3f82f5c78b757755c68da92334e5af34c36f2b09dd
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-16T14:46:30.831556+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-16T14:47:05.037956+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: e2fcce53cdcd3bc10579e91c3af2767e03ccbc8de0984c16bc81ca2e485c85c6
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: giriraj-project-helm-chart
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-giriraj-project-helm-chart-0.21.0/container-test-giriraj-project-helm-chart-0.21.0.tgz
+    version: 0.21.0
   container-test-viksss-stage-e2e:
   - annotations:
       charts.openshift.io/digest: sha256:df5e9cb9023473bf44ec95897fc73148adaa60e2c7382fee0ad971db00180388
@@ -133,4 +166,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-newlhelmaish-0.21.0/redhat-sp-newlhelmaish-0.21.0.tgz
     version: 0.21.0
-generated: '2022-11-16T14:06:44.162805+00:00'
+generated: '2022-11-16T14:47:05.037956+00:00'
