@@ -12,7 +12,7 @@ keywords:
 - automation
 - infrastructure
 kubeVersion: '>= 1.16.0-0'
-name: viksss-stage-e2e
+name: newlhelmaish
 sources:
 - https://github.com/hashicorp/vault
 - https://github.com/hashicorp/vault-helm
