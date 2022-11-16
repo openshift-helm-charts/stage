@@ -1,6 +1,6 @@
 chart:
   name: araszka-test
-  shortDescription: null
+  shortDescription: Description
 providerDelivery: true
 publicPgpKey: null
 users:
