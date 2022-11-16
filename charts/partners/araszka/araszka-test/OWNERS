@@ -1,9 +1,10 @@
 chart:
   name: araszka-test
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: true
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: Allda
 vendor:
   label: araszka
   name: Red Hat
