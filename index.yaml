@@ -100,4 +100,37 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
     version: 0.1.0
-generated: '2022-11-16T12:32:19.304502+00:00'
+  redhat-sp-newlhelmaish:
+  - annotations:
+      charts.openshift.io/digest: sha256:de53449f68a4944f20b13adfda368dcf98af26de7440655b0bee2ec95fb18f30
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-16T14:06:08.671161+00:00'
+      charts.openshift.io/provider: GLOBAL SUPPORT SERVI RED HAT, INC.
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-16T14:06:44.162805+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 592ae4f0a9ba0fbcc7be18927716ddf973404b26cdfb7139a2979f0d36f2e9a4
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: newlhelmaish
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-newlhelmaish-0.21.0/redhat-sp-newlhelmaish-0.21.0.tgz
+    version: 0.21.0
+generated: '2022-11-16T14:06:44.162805+00:00'
