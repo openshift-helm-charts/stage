@@ -1,5 +1,38 @@
 apiVersion: v1
 entries:
+  container-test-viksss-stage-e2e:
+  - annotations:
+      charts.openshift.io/digest: sha256:df5e9cb9023473bf44ec95897fc73148adaa60e2c7382fee0ad971db00180388
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-16T12:31:56.074584+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-16T12:32:19.304502+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 2e5c778f4bb802a52e13c10627f7a641ebef786501cdc3887c3add0e19fa83ab
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: viksss-stage-e2e
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-viksss-stage-e2e-0.21.0/container-test-viksss-stage-e2e-0.21.0.tgz
+    version: 0.21.0
   hashicorp-vault:
   - annotations:
       charts.openshift.io/digest: sha256:e976630aa2d8a6aed25284b627b0e9255a942e1aec456657357f9e6e81ec13da
@@ -67,4 +100,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
     version: 0.1.0
-generated: '2022-10-27T06:47:34.681866+00:00'
+generated: '2022-11-16T12:32:19.304502+00:00'
