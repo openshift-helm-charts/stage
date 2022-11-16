@@ -1,0 +1,510 @@
+apiVersion: v1
+entries:
+  illumio-illumio:
+  - annotations:
+      charts.openshift.io/digest: sha256:86e18df54395641a1a5866bb801df5b0b79e86f992dc72cc395c47387f633389
+      charts.openshift.io/lastCertifiedTimestamp: '2022-06-29T19:28:05.160154+00:00'
+      charts.openshift.io/name: Illumio Core for Kubernetes
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-06-30T14:55:21.273307+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.7'
+      charts.openshift.io/testedOpenShiftVersion: '4.10'
+    apiVersion: v2
+    appVersion: 1.0.0
+    description: A Helm chart of Illumio Core for Kubernetes
+    digest: 2c4d9506b899577a79173adcb657d5948782b6fed208e84cedf37f2f2c3968ab
+    icon: https://www.illumio.com/sites/default/files/2021-05/illumio_Logo_2019_0_OPT.svg
+    kubeVersion: '>=1.20.0'
+    name: illumio
+    type: application
+    urls:
+    - N/A
+    version: 1.0.0
+  intracom-telecom-nfvri:
+  - annotations:
+      charts.openshift.io/digest: sha256:001abb541d0be2cc58a5ab6bf75bf0b05023ef37f40f9129ff677db7cef603e3
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T09:24:59.061544+00:00'
+      charts.openshift.io/name: nfvri
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-20T16:17:09.330740+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.7'
+      charts.openshift.io/testedOpenShiftVersion: '4.10'
+    apiVersion: v2
+    appVersion: v4.4.0
+    dependencies:
+    - name: nfvri-agent
+      repository: file://../nfvri-agent
+      version: 4.4.0
+    - name: nfvri-apiserver
+      repository: file://../nfvri-apiserver
+      version: 4.4.0
+    - name: nfvri-orchestrator
+      repository: file://../nfvri-orchestrator
+      version: 4.4.0
+    - name: nfvri-dashboard
+      repository: file://../nfvri-dashboard
+      version: 4.4.0
+    description: A Helm chart for Kubernetes to deploy the NFV-RI stack
+    digest: a65ca1921a21c3a90cda7849ebe7355aed87a6dde755d5231bb4a314f2ee1ae1
+    kubeVersion: '>= 1.20.0'
+    name: nfvri
+    type: application
+    urls:
+    - https://europe-docker.pkg.dev/nfv-ri/helm-charts/nfvri
+    version: 4.4.0
+  mavenir-5gdu:
+  - annotations:
+      charts.openshift.io/digest: sha256:2c286be0b45a1852634966316cc394bec6ee746e54a991b9caf1ab8c9c39d4e8
+      charts.openshift.io/lastCertifiedTimestamp: '2022-07-21T14:04:14.999201+00:00'
+      charts.openshift.io/name: test
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-07-27T18:53:45.739048+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    description: NF Service template.
+    digest: c6586e42f85df1dc529892fca9ae41c45279610062c027c4262fc96ff219e4da
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - email: srikanth.subbaramu@mavenir.com
+      name: ran ptf team
+    name: 5gdu
+    urls:
+    - N/A
+    version: 5gdu_5.0.1-563
+  mavenir-amf:
+  - annotations:
+      charts.openshift.io/digest: sha256:c9e5119d0e0b9ce4845fc02807b44e0ab19555d584d0d805e32290511eaad1bd
+      charts.openshift.io/lastCertifiedTimestamp: '2022-09-28T11:10:54.803276+00:00'
+      charts.openshift.io/name: amf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-09-29T05:14:20.115848+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: amf-comm
+      repository: file:///root/amf-comm/
+      version: '0.1'
+    - name: amf-mt
+      repository: file:///root/amf-mt/
+      version: '0.1'
+    - name: amf-gw
+      repository: file:///root/amf-gw/
+      version: '0.1'
+    - name: amf-n2iwf
+      repository: file:///root/amf-n2iwf/
+      version: '0.1'
+    - name: amf-ee
+      repository: file:///root/amf-ee/
+      version: '0.1'
+    - name: amf-slicemgmt
+      repository: file:///root/amf-slicemgmt/
+      version: '0.1'
+    - name: amf-gtpciwf
+      repository: file:///root/amf-gtpciwf/
+      version: '0.1'
+    - name: amf-pathmgmt
+      repository: file:///root/amf-pathmgmt/
+      version: '0.1'
+    description: NF Service template.
+    digest: d3f8a4885cdcf0f9137eb1acb8f90db8c7033caaeabf28d25a502affdd9f62e9
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: amf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  mavenir-cucp:
+  - annotations:
+      charts.openshift.io/digest: sha256:fda1fa17c6802bcb0fe1bdc46ab95a3f7e4c26f105a0a3d2313e329e4f5fb4f9
+      charts.openshift.io/lastCertifiedTimestamp: '2022-05-05T18:19:51.249661+00:00'
+      charts.openshift.io/name: test
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-05-24T15:09:33.742777+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.6'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: gnbmgr
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    - name: ueconmgr
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    - name: sctpe1iwf
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    - name: sctpf1iwf
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    - name: ngclientiwf
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    - name: sctpxniwf
+      repository: http://10.10.5.8:8080
+      version: '2.8'
+    description: NF Service template.
+    digest: a3ec623230433f0753bd06b8223c68df6bc84f539166258144252420023c97dd
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - email: srikanth.subbaramu@mavenir.com
+      name: ran pltf team
+    name: cucp
+    urls:
+    - https://github.com/ansvu/samplechart/releases/cucp_358/g3_5_0_326_53/cucp_53_helmtest.tgz
+    version: 5.0.326-53
+  mavenir-cuup:
+  - annotations:
+      charts.openshift.io/digest: sha256:2d662185426d2d11a310e8d055d4b86b4533f8c3fdb06c9c9450390dabecb6d8
+      charts.openshift.io/lastCertifiedTimestamp: '2022-06-01T18:56:38.183573+00:00'
+      charts.openshift.io/name: test
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-06-08T17:10:55.815477+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.5'
+      charts.openshift.io/testedOpenShiftVersion: '4.7'
+    apiVersion: v2
+    appVersion: NRCC.R.2.0.14.1_DB
+    dependencies:
+    - name: iwfsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: gwsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: intfmgrsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: dprmsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: srmsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: bccsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    - name: dalsvc
+      repository: http://10.69.12.211:8080
+      version: 0.0.1
+    description: NR CUUP services.
+    digest: 4be6bc722e266c6753a7ca4291d499c23817572ed87f35bd705175feb112ef5e
+    kubeVersion: '>=1.18.0-0'
+    maintainers:
+    - email: junjie.jiang@mavenir.com
+      name: George Jiang
+    name: cuup
+    urls:
+    - https://github.com/shantanushivanekar123/rhdu_Ubi7sw/CUUP_Ubi8/Chart/helchart_cuup/cuup_helm_01062022_new.tgz
+    version: 0.14.1
+  mavenir-du:
+  - annotations:
+      charts.openshift.io/digest: sha256:75ca3bacbe48389a2273a216571db8d996336dca73feb8005b10d68f490044f2
+      charts.openshift.io/lastCertifiedTimestamp: '2022-06-11T16:49:30.472769+00:00'
+      charts.openshift.io/name: test
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-06-14T13:45:15.371882+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.5'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    description: NF Service template.
+    digest: a96538a7d87eaf005e7a4b095b9fb314a96dfa2d570c283698b63ebbbd1a424f
+    kubeVersion: '>=1.18.0-0'
+    maintainers:
+    - email: srikanth.subbaramu@mavenir.com
+      name: ran ptf team
+    name: du
+    urls:
+    - https://github.com/ansvu/samplechart/releases/du_helmchart/du_helmchart_run.tgz
+    version: du5.0.326-53
+  mavenir-nrf:
+  - annotations:
+      charts.openshift.io/digest: sha256:23f85da7f8a66e3c6cdca6c835f433fba5d07fd0808d846f4fd3723288504545
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T07:32:53.900139+00:00'
+      charts.openshift.io/name: nrf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T11:49:24.221229+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: nrf-mgmt
+      repository: file:///root/nrf-mgmt/
+      version: '0.1'
+    - name: nrf-discovery
+      repository: file:///root/nrf-discovery/
+      version: '0.1'
+    - name: nrf-sn
+      repository: file:///root/nrf-sn/
+      version: '0.1'
+    - name: nrf-expiration
+      repository: file:///root/nrf-expiration/
+      version: '0.1'
+    - name: nrf-at
+      repository: file:///root/nrf-at/
+      version: '0.1'
+    description: NF Service template.
+    digest: fb681c4b20b95a12d4788fbc7d85872c06c1e15fb0cdca929fe006288eae673b
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: nrf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  mavenir-nssf:
+  - annotations:
+      charts.openshift.io/digest: sha256:bb0e315f03d016a0b12c97696869bef2795c4f90086c8feca8f64413b180c2bc
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T07:42:24.360981+00:00'
+      charts.openshift.io/name: nssf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T11:52:22.026088+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: nssf-nssaiavailability
+      repository: file:///root/nssf-nssaiavailability/
+      version: '0.1'
+    - name: nssf-nsselection
+      repository: file:///root/nssf-nsselection/
+      version: '0.1'
+    description: NF Service template.
+    digest: 32688501fafbe521dbbe28c2834756735302c4cd2c3a1b178476cb872591e669
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: nssf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  mavenir-smf:
+  - annotations:
+      charts.openshift.io/digest: sha256:08fd5c4cd8c86180336734a698c65fd85bf0f28ae76c669f6c028fc67998f0ab
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T08:05:00.640438+00:00'
+      charts.openshift.io/name: smf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T11:59:35.387911+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: smf-pdusession
+      repository: file:///root/smf-pdusession/
+      version: '0.1'
+    - name: smf-n4iwf
+      repository: file:///root/smf-n4iwf/
+      version: '0.1'
+    - name: smf-gw
+      repository: file:///root/smf-gw/
+      version: '0.1'
+    - name: smf-plc
+      repository: file:///root/smf-plc/
+      version: '0.1'
+    - name: smf-ipm
+      repository: file:///root/smf-ipm/
+      version: '0.1'
+    - name: smf-ctf
+      repository: file:///root/smf-ctf/
+      version: '0.1'
+    - name: smf-restore
+      repository: file:///root/smf-restore/
+      version: '0.1'
+    - name: smf-eef
+      repository: file:///root/smf-eef/
+      version: '0.1'
+    description: NF Service template.
+    digest: 716fe24a5e072b0727454bf3a80410bc1593f14192f02faf7eb9bb8b9d87d624
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: smf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  mavenir-udm:
+  - annotations:
+      charts.openshift.io/digest: sha256:3ec23e856d691f4b816a2a623749c7d1a537f615dec3df93a3225fc82f1f87a0
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T10:23:47.837144+00:00'
+      charts.openshift.io/name: udm
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T12:09:16.825782+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: udm-ueau
+      repository: file:///root/udm-ueau/
+      version: '0.1'
+    - name: udm-ee
+      repository: file:///root/udm-ee/
+      version: '0.1'
+    - name: udm-sdm
+      repository: file:///root/udm-sdm/
+      version: '0.1'
+    - name: udm-uecm
+      repository: file:///root/udm-uecm/
+      version: '0.1'
+    - name: udm-notify
+      repository: file:///root/udm-notify/
+      version: '0.1'
+    - name: udm-mt
+      repository: file:///root/udm-mt/
+      version: '0.1'
+    description: NF Service template.
+    digest: 7bafec664cebeb0f3f6c71d97e8e3113ab0c9e5da57211122db7ec938a61c2a0
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - email: sayan.sarkar@mavenir.com
+      name: sayan sarkar
+    name: udm
+    urls:
+    - N/A
+    version: 22.1.3-1
+  mavenir-udr:
+  - annotations:
+      charts.openshift.io/digest: sha256:75cb578786c9c051eac8eff9430f7de4c3640bdce49ca0b7819d2997fbca8f3c
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T10:35:38.181319+00:00'
+      charts.openshift.io/name: udr
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T12:13:39.090752+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: udr-subs
+      repository: file:///root/udr-subs/
+      version: '0.1'
+    - name: udr-policy
+      repository: file:///root/udr-policy/
+      version: '0.1'
+    - name: udr-provision
+      repository: file:///root/udr-provision/
+      version: '0.1'
+    - name: udr-notify
+      repository: file:///root/udr-notify/
+      version: '0.1'
+    - name: udr-polling
+      repository: file:///root/udr-polling/
+      version: '0.1'
+    - name: udr-exp
+      repository: file:///root/udr-exp/
+      version: '0.1'
+    - name: udr-app
+      repository: file:///root/udr-app/
+      version: '0.1'
+    description: NF Service template.
+    digest: 1743b104e5dd85cbccd32649d50af9c54a876843191d6f7c6ff600869966082c
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - email: sayan.sarkar@mavenir.com
+      name: sayan sarkar
+    name: udr
+    urls:
+    - N/A
+    version: 22.1.3-1
+  mavenir-udsf:
+  - annotations:
+      charts.openshift.io/digest: sha256:e28c1a71d916db4ec5ed045fab1c4e84c306b9792b1c6b35afae310086f66f4f
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T07:02:51.897224+00:00'
+      charts.openshift.io/name: udsf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T11:11:09.053889+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: udsf-core
+      repository: file:///root/udsf-core/
+      version: '0.1'
+    - name: udsf-util
+      repository: file:///root/udsf-util/
+      version: '0.1'
+    - name: udsf-mgmt
+      repository: file:///root/udsf-mgmt/
+      version: '0.1'
+    - name: udsf-tsman
+      repository: file:///root/udsf-tsman/
+      version: '0.1'
+    - name: udsf-tsexp
+      repository: file:///root/udsf-tsexp/
+      version: '0.1'
+    - name: udsf-tscoor
+      repository: file:///root/udsf-tscoor/
+      version: '0.1'
+    - name: udsf-reconcile
+      repository: file:///root/udsf-reconcile/
+      version: '0.1'
+    description: NF Service template.
+    digest: 4f1ae168f4af6c172cb0b003b5705110e7999bfdd7fb84e3cdd7461fdb356c99
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: udsf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  mavenir-upf:
+  - annotations:
+      charts.openshift.io/digest: sha256:1a74e4708c98039c012fe61b92b4f43007106799cb6c1fcebd3c65380775d39c
+      charts.openshift.io/lastCertifiedTimestamp: '2022-10-19T10:11:07.386609+00:00'
+      charts.openshift.io/name: upf
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-10-19T12:06:11.268557+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.4'
+      charts.openshift.io/testedOpenShiftVersion: '4.9'
+    apiVersion: v2
+    appVersion: '0.1'
+    dependencies:
+    - name: upf-dpe
+      repository: file:///root/upf-dpe/
+      version: '0.1'
+    description: NF Service template.
+    digest: 8283038b4e8f65dd4fd23df91de601fe1e3f65a532bc5be83739725cab781b44
+    kubeVersion: '>= 1.17.0'
+    maintainers:
+    - name: Copyright Mavenir Inc 2021
+      url: https://mavenir.com/
+    name: upf
+    urls:
+    - N/A
+    version: 10.1.0-4757
+  nokia-cmm-operator-k8s:
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/digest: sha256:dd31da96f7bec0897f1a95ff2d4215e06af672db659daef999b8945c4467a920
+      charts.openshift.io/lastCertifiedTimestamp: '2022-09-27T16:58:55.142046+00:00'
+      charts.openshift.io/name: Nokia CMM
+      charts.openshift.io/provider: Nokia
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-09-27T17:25:10.464758+00:00'
+      charts.openshift.io/supportURL: https://github.com/nokiacmm/helm-chart
+      charts.openshift.io/supportedOpenShiftVersions: 4.7 - 4.11
+      charts.openshift.io/testedOpenShiftVersion: '4.10'
+    apiVersion: v2
+    description: A Helm chart for CMM in Kubernetes using operators
+    digest: 67e6cdc1422911f1556546ba85554f02b0e5db8220e81efe08581d397366919a
+    icon: https://www.nokia.com/chart-icon.png
+    kubeVersion: 1.20.0 - 1.24.0
+    name: cmm-operator-k8s
+    type: application
+    urls:
+    - N/A
+    version: 22.5.0-p4
+generated: '2022-10-20T16:17:09.330740+00:00'
