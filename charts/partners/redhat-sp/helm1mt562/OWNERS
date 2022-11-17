@@ -1,9 +1,10 @@
 chart:
   name: helm1mt562
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: true
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: rnargotr
 vendor:
   label: redhat-sp
   name: GLOBAL SUPPORT SERVI RED HAT, INC.
