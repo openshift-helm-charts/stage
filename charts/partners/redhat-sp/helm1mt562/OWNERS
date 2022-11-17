@@ -1,0 +1,9 @@
+chart:
+  name: helm1mt562
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
