@@ -1,7 +1,7 @@
 chart:
   name: helm-chart-e2e-test-stage
   shortDescription: null
-providerDelivery: true
+providerDelivery: True
 publicPgpKey: null
 users:
 - githubUsername: bovem
