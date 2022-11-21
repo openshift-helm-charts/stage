@@ -1,9 +1,10 @@
 chart:
   name: helmchartautomation-21-11-2022-17-22-50
-  shortDescription: unknown
+  shortDescription: Short repo description for helm chart
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: UHViIEtleQ==
+users:
+- githubUsername: opcert
 vendor:
   label: container-test
   name: Anandprakash Tandale
