@@ -231,6 +231,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-helm-chart-e2e-stage-external-0.21.0/redhat-caastestreg-helm-chart-e2e-stage-external-0.21.0.tgz
     version: 0.21.0
+  redhat-caastestreg-test-external-helm-5678:
+  - annotations:
+      charts.openshift.io/digest: sha256:70744d2b2f5bb93eb3083097038f1949f721e34be26613d3231628430e6d9ed0
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-23T08:46:24.654784+00:00'
+      charts.openshift.io/name: test-external-helm-5678
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-23T10:46:37.166435+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 7a4071abf171a1737d1c8dc3e78bf2326fca40e1964788f7e6ad0e255e3d0aef
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: test-external-helm-5678
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/bovem/external-helm-charts/raw/main/test-external-helm-5678/0.21.0/redhat-caastestreg-test-external-helm-5678-0.21.0.tgz
+    version: 0.21.0
   redhat-sp-newlhelmaish:
   - annotations:
       charts.openshift.io/digest: sha256:de53449f68a4944f20b13adfda368dcf98af26de7440655b0bee2ec95fb18f30
@@ -396,4 +429,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2022-11-23T05:46:25.196543+00:00'
+generated: '2022-11-23T10:46:37.166435+00:00'
