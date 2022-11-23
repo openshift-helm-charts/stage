@@ -12,7 +12,7 @@ keywords:
 - automation
 - infrastructure
 kubeVersion: '>= 1.16.0-0'
-name: helm-chart-e2e-stage-external
+name: helm-chart-e2e-webonly
 sources:
 - https://github.com/hashicorp/vault
 - https://github.com/hashicorp/vault-helm
@@ -20,4 +20,4 @@ sources:
 - https://github.com/hashicorp/vault-csi-provider
 version: 0.21.0
 annotations:
-  charts.openshift.io/name: helm-chart-e2e-stage-external
+  charts.openshift.io/name: helm-chart-e2e-webonly
