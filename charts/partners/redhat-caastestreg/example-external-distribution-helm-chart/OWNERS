@@ -1,0 +1,10 @@
+chart:
+  name: example-external-distribution-helm-chart
+  shortDescription: null
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg
+  name: RED HAT
