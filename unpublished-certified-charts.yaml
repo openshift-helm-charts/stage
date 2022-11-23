@@ -573,4 +573,37 @@ entries:
     urls:
     - N/A
     version: 0.21.0
-generated: '2022-11-23T06:56:19.209328+00:00'
+  redhat-sp-test-webonly:
+  - annotations:
+      charts.openshift.io/digest: sha256:316cccc89c2b2d864f70da3de8250018e640ab6386b46445975536d11d2b7b04
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-23T07:32:20.231171+00:00'
+      charts.openshift.io/name: test-webonly
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-23T07:38:46.741130+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: bd841b36feb2c5ae0a35925e0a2ea3a86211cfd3719e4aca585e9fd52a71fc67
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: test-webonly
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.21.0
+generated: '2022-11-23T07:38:46.741130+00:00'
