@@ -1,9 +1,10 @@
 chart:
   name: helm-chart-external-1234
-  shortDescription: unknown
+  shortDescription: helm-chart-rhcc-1234 is a helm chart testing chart
 providerDelivery: true
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: bovem
 vendor:
   label: redhat-caastestreg
   name: RED HAT
