@@ -198,6 +198,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
     version: 0.1.0
+  redhat-caastestreg-helm-chart-5678:
+  - annotations:
+      charts.openshift.io/digest: sha256:8cc9b07f4e0ed2f242aeaa266bd16b17ac515849c6130ece6837ec0b23118e13
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-24T15:17:29.874425+00:00'
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-24T15:18:05.953505+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: f43dbc7b17b79a947e321d09a7f036e2c95e8fabe874e5e37185de96e6e5d1ad
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helm-chart-5678
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-helm-chart-5678-0.21.0/redhat-caastestreg-helm-chart-5678-0.21.0.tgz
+    version: 0.21.0
   redhat-caastestreg-helm-chart-e2e-stage-external:
   - annotations:
       charts.openshift.io/digest: sha256:7fd46a4ecadb7d92d523d451548252fd57cd03daf9b034f44e1de5961da0a84f
@@ -462,4 +495,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2022-11-24T11:39:58.463930+00:00'
+generated: '2022-11-24T15:18:05.953505+00:00'
