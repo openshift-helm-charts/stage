@@ -573,6 +573,39 @@ entries:
     urls:
     - N/A
     version: 0.21.0
+  redhat-sp-new-helm-stage:
+  - annotations:
+      charts.openshift.io/digest: sha256:78e2f0efa89e59e4f4ce890a0cb561869aa83ef41ed7cd139bd76987eb37b0b9
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-24T08:06:22.382928+00:00'
+      charts.openshift.io/name: new-helm-stage
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-24T08:12:20.002938+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 5b066734d73a32def922eb4998a6fb82b22da566e612ee2e2a54457d359e2dc4
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: new-helm-stage
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.21.0
   redhat-sp-test-webonly:
   - annotations:
       charts.openshift.io/digest: sha256:316cccc89c2b2d864f70da3de8250018e640ab6386b46445975536d11d2b7b04
@@ -606,4 +639,4 @@ entries:
     urls:
     - N/A
     version: 0.21.0
-generated: '2022-11-23T07:38:46.741130+00:00'
+generated: '2022-11-24T08:12:20.002938+00:00'
