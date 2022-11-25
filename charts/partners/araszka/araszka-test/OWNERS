@@ -1,7 +1,7 @@
 chart:
   name: araszka-test
   shortDescription: Description
-providerDelivery: true
+providerDelivery: false
 publicPgpKey: null
 users:
 - githubUsername: Allda
