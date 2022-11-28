@@ -5,6 +5,7 @@ providerDelivery: true
 publicPgpKey: null
 users:
 - githubUsername: Aishwarya-Urne
+- githubUsername: vikasmulaje
 vendor:
   label: redhat-sp
   name: GLOBAL SUPPORT SERVI RED HAT, INC.
