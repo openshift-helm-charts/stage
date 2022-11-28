@@ -1,0 +1,10 @@
+chart:
+  name: test-giriraj-helm-chart
+  shortDescription: null
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
