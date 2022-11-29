@@ -1,0 +1,10 @@
+chart:
+  name: helmchartchecklist
+  shortDescription: This text is displayed on card previews in the Ecosystem catalog
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: vikasmulaje
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
