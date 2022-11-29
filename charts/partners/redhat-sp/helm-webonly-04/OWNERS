@@ -1,9 +1,10 @@
 chart:
   name: helm-webonly-04
-  shortDescription: unknown
+  shortDescription: test
 providerDelivery: true
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: Aishwarya-Urne
 vendor:
   label: redhat-sp
   name: GLOBAL SUPPORT SERVI RED HAT, INC.
