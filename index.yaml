@@ -198,6 +198,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/helm-demo-test-morning-0.1.0/helm-demo-test-morning-0.1.0.tgz
     version: 0.1.0
+  redhat-caastestreg-duplicate-helmchartchecklist:
+  - annotations:
+      charts.openshift.io/digest: sha256:ccc8b153a7f4f16be4151a3b41a4f300178df8182809f4294bab83e56c6c4b79
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-29T13:09:38.68128+00:00'
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-29T13:10:13.652977+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 754847e7661a7fea49b40ef69f6731c0218ee0885d9378190ae9f10484e3c5b1
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helmchartchecklist
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-duplicate-helmchartchecklist-0.21.0/redhat-caastestreg-duplicate-helmchartchecklist-0.21.0.tgz
+    version: 0.21.0
   redhat-caastestreg-helm-chart-5678:
   - annotations:
       charts.openshift.io/digest: sha256:8cc9b07f4e0ed2f242aeaa266bd16b17ac515849c6130ece6837ec0b23118e13
@@ -495,4 +528,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2022-11-24T15:18:05.953505+00:00'
+generated: '2022-11-29T13:10:13.652977+00:00'
