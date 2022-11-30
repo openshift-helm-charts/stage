@@ -98,6 +98,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-test-giriraj-helm-chart-0.23.0/container-test-test-giriraj-helm-chart-0.23.0.tgz
     version: 0.23.0
+  container-test-test-helm-chart-3011:
+  - annotations:
+      charts.openshift.io/digest: sha256:f2a2a1599a77a77932797b37e97b5de7435eb2df8157131af4cfb0ebc0dac151
+      charts.openshift.io/lastCertifiedTimestamp: '2022-11-30T05:55:01.674415+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-11-30T05:55:32.819693+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 367377a15b27d2aa1d2ae038bd8b699255742f99d88df6d6ee7a07483fe2f3ca
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: test-helm-chart-3011
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-test-helm-chart-3011-0.30.0/container-test-test-helm-chart-3011-0.30.0.tgz
+    version: 0.30.0
   container-test-viksss-stage-e2e:
   - annotations:
       charts.openshift.io/digest: sha256:df5e9cb9023473bf44ec95897fc73148adaa60e2c7382fee0ad971db00180388
@@ -528,4 +561,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2022-11-29T13:10:13.652977+00:00'
+generated: '2022-11-30T05:55:32.819693+00:00'
