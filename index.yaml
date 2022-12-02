@@ -264,6 +264,38 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-duplicate-helm-testing-980-0.21.0/redhat-caastestreg-duplicate-helm-testing-980-0.21.0.tgz
     version: 0.21.0
+  - annotations:
+      charts.openshift.io/digest: sha256:52b932d9d2ba303a9fc9cf002d1794b1362bfff8285adbe02f8aceb44e02d172
+      charts.openshift.io/lastCertifiedTimestamp: '2022-12-02T11:48:37.968232+00:00'
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-12-02T11:49:14.196697+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: f56e74dd5d9943484fde97d7b40fa376ef9a4dd4e190491d5e8a7cf308bbeeff
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helm-testing-980
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-duplicate-helm-testing-980-0.21.1/redhat-caastestreg-duplicate-helm-testing-980-0.21.1.tgz
+    version: 0.21.1
   redhat-caastestreg-duplicate-helmchartchecklist:
   - annotations:
       charts.openshift.io/digest: sha256:ccc8b153a7f4f16be4151a3b41a4f300178df8182809f4294bab83e56c6c4b79
@@ -594,4 +626,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2022-12-02T08:51:37.529719+00:00'
+generated: '2022-12-02T11:49:14.196697+00:00'
