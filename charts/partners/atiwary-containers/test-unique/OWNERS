@@ -1,9 +1,10 @@
 chart:
   name: test-unique
-  shortDescription: unknown
+  shortDescription: dd
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: ddd
 vendor:
   label: atiwary-containers
   name: Red Hat, Inc.
