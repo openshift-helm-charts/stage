@@ -1,9 +1,10 @@
 chart:
   name: viksss-chart-demo
-  shortDescription: unknown
+  shortDescription: Short repository description
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: vikasmulaje
 vendor:
   label: redhat-caastestreg-duplicate
   name: RED HAT
