@@ -507,6 +507,39 @@ entries:
     urls:
     - N/A
     version: 22.5.0-p4
+  redhat-caastestreg-duplicate-helm-test-e2e:
+  - annotations:
+      charts.openshift.io/digest: sha256:b5a2949389b8ad23490d39578ec8a0eacb8a25e80d26508a85dc68218a9c2e48
+      charts.openshift.io/lastCertifiedTimestamp: '2022-12-08T10:12:01.207111+00:00'
+      charts.openshift.io/name: helm-test-e2e
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2022-12-08T10:14:18.080862+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.10'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 53e5b2f03ff323b965ecd1eb22efe85c941ce73d80506d0d4dd5ae086f746373
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helm-test-e2e
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.21.0
   redhat-caastestreg-helm-chart-e2e-test-stage:
   - annotations:
       charts.openshift.io/digest: sha256:fda1c6f533bc7f8a78d8df0d2771dcae4c9287e9695cbd3b06f9f9a2cfc57695
@@ -771,4 +804,4 @@ entries:
     urls:
     - N/A
     version: 0.21.0
-generated: '2022-11-29T09:07:03.943097+00:00'
+generated: '2022-12-08T10:14:18.080862+00:00'
