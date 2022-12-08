@@ -1,0 +1,9 @@
+chart:
+  name: test321
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
