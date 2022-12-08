@@ -6,12 +6,12 @@ metadata:
         profile:
             VendorType: partner
             version: v1.1
-        chart-uri: N/A
+        chart-uri: https://github.com/bovem/external-helm-charts/blob/main/helm-test-e2e/0.21.0/redhat-caastestreg-duplicate-helm-test-e2e-0.21.0.tgz?raw=true
         digests:
             chart: sha256:b5a2949389b8ad23490d39578ec8a0eacb8a25e80d26508a85dc68218a9c2e48
             package: 53e5b2f03ff323b965ecd1eb22efe85c941ce73d80506d0d4dd5ae086f746373
         lastCertifiedTimestamp: "2022-12-08T09:53:31.327943+00:00"
-        testedOpenShiftVersion: N/A
+        testedOpenShiftVersion: `4.10`
         supportedOpenShiftVersions: '>=4.3'
         providerControlledDelivery: true
     chart:
