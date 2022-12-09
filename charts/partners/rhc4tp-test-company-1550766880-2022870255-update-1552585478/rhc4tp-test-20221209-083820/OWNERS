@@ -1,9 +1,10 @@
 chart:
   name: rhc4tp-test-20221209-083820
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: rhc4tp-test-20221209-083820
 vendor:
   label: rhc4tp-test-company-1550766880-2022870255-update-1552585478
   name: Red Hat
