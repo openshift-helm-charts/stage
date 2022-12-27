@@ -1,9 +1,10 @@
 chart:
   name: testchart12
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: true
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: '@amgarud'
 vendor:
   label: atiwary-containers
   name: Red Hat, Inc.
