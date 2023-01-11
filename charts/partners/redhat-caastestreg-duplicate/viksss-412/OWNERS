@@ -1,9 +1,11 @@
 chart:
   name: viksss-412
-  shortDescription: unknown
+  shortDescription: This text is displayed on card previews in the Ecosystem catalog
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: vikasmulaje
+- githubUsername: opcert
 vendor:
   label: redhat-caastestreg-duplicate
   name: RED HAT
