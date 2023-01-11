@@ -264,6 +264,38 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-duplicate-helm-testing-5435-0.21.0/helm-testing-5435-0.21.0.tgz
     version: 0.21.0
+  - annotations:
+      charts.openshift.io/digest: sha256:ab039646424692f18518431b0f78a7d81feb69d8ad3414fc923d0d7ec093f727
+      charts.openshift.io/lastCertifiedTimestamp: '2023-01-11T11:31:41.23984+00:00'
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-01-11T11:32:12.024491+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 3d8f93df37d199cabad62bb1c013d8e2abc64fd217fb8b9d9b6e2b65b18987ba
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helm-testing-5435
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-caastestreg-duplicate-helm-testing-5435-0.21.1/helm-testing-5435-0.21.1.tgz
+    version: 0.21.1
   redhat-caastestreg-duplicate-helm-testing-980:
   - annotations:
       charts.openshift.io/digest: sha256:ccd49ea8ae79ab95d062592fcbdf7f8e38d5e2c6e0c08808ca09bd16dae4a14e
@@ -980,4 +1012,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2023-01-11T11:25:54.530215+00:00'
+generated: '2023-01-11T11:32:12.024491+00:00'
