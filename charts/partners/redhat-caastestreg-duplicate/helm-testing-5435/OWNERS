@@ -1,9 +1,10 @@
 chart:
   name: helm-testing-5435
-  shortDescription: unknown
+  shortDescription: null
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: null
+users:
+- githubUsername: opcert
 vendor:
   label: redhat-caastestreg-duplicate
   name: RED HAT
