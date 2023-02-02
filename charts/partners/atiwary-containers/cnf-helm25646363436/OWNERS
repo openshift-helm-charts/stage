@@ -1,0 +1,9 @@
+chart:
+  name: cnf-helm25646363436
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
