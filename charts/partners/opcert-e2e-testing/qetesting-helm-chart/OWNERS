@@ -1,0 +1,11 @@
+chart:
+  name: qetesting-helm-chart
+  shortDescription: null
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
