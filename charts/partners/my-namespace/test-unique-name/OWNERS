@@ -1,0 +1,9 @@
+chart:
+  name: test-unique-name
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: my-namespace
+  name: Red Hat
