@@ -2997,4 +2997,37 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-webaishstage-0.21.0/redhat-sp-webaishstage-0.21.0.tgz
     version: 0.21.0
-generated: '2023-02-26T16:03:21.670041+00:00'
+  testopenshifthelmchart27021617-test-openshift-helm-chart:
+  - annotations:
+      charts.openshift.io/digest: sha256:799b55edccb8b45d14194a6c8c8965b1850fc3a7ac1bdac628ec5bfa4a1e2fe8
+      charts.openshift.io/lastCertifiedTimestamp: '2023-02-27T11:05:33.371106+00:00'
+      charts.openshift.io/provider: test-qa-automation-user
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-02-27T11:06:04.972569+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 4e8ea61b2f5c7c9ba3b81e87c5a2932a20b58db2a376e710ef6c64ccde1b9a53
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: test-openshift-helm-chart
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
+    version: 0.21.0
+generated: '2023-02-27T11:06:04.972569+00:00'
