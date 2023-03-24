@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: maveric-tellrv
 vendor:
   label: container-test
   name: Anandprakash Tandale
