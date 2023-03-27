@@ -1,6 +1,7 @@
 chart:
   name: chart-name
   shortDescription: Lorem ipsum
+providerDelivery: false
 publicPgpKey: unknown
 users:
 - githubUsername: araszka
