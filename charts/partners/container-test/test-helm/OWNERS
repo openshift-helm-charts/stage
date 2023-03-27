@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: test-helm-incomplete
 vendor:
   label: container-test
   name: Anandprakash Tandale
