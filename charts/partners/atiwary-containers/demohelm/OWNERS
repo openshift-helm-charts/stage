@@ -1,0 +1,10 @@
+chart:
+  name: demohelm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: testuser
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
