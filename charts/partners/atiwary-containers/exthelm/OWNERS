@@ -1,0 +1,10 @@
+chart:
+  name: exthelm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test acc
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
