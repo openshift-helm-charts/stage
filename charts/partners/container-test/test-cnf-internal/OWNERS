@@ -1,6 +1,7 @@
 chart:
   name: test-cnf-internal
   shortDescription: a
+providerDelivery: false
 publicPgpKey: amZrc2hqc2hramhna2pkc2hsa2pk
 users:
 - githubUsername: sawalgiriraj
