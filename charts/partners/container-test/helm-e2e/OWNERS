@@ -1,6 +1,7 @@
 chart:
   name: helm-e2e
   shortDescription: 'Short description '
+providerDelivery: false
 publicPgpKey: dGVzdCBrZXk=
 users:
 - githubUsername: Aishwarya-Urne
