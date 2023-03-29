@@ -1,0 +1,9 @@
+chart:
+  name: helm-stage-cnf
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
