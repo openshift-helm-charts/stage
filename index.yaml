@@ -66,6 +66,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-helm-chart-cnf-0.21.0/helm-chart-cnf-0.21.0.tgz
     version: 0.21.0
+  container-test-helm-stage-cnf:
+  - annotations:
+      charts.openshift.io/digest: sha256:bc7a220e2651480fe8f7de4a83f80c95bab7922a95e38b308967023a6d796fdb
+      charts.openshift.io/lastCertifiedTimestamp: '2023-03-29T11:21:38.13348+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-03-29T11:22:03.342016+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.11'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: f08b5bdeef1e9e76e6a322d10d5fceb9468d42cb75a9c476956e92b8a43251e9
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: helm-stage-cnf
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-helm-stage-cnf-0.21.0/helm-stage-cnf-0.21.0.tgz
+    version: 0.21.0
   container-test-test-giriraj-helm-chart:
   - annotations:
       charts.openshift.io/digest: sha256:f36aa8645c60a378819db02f118439dd2d5dd38d2f22dd1c28cd6469e8d89e37
@@ -3063,4 +3096,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-03-24T08:59:45.384908+00:00'
+generated: '2023-03-29T11:22:03.342016+00:00'
