@@ -79,16 +79,15 @@ jobs:
       - name: Set Environment
         id: set-env
         run: |
-          #set environemnt based on repository
+          #set environment based on repository
           if [ $GITHUB_REPOSITORY == "openshift-helm-charts/charts" ]; then
             echo "Use latest verifier image"
-            echo "insecure_skip_tls_verify=false" >> $GITHUB_OUTPUT
             echo "verifier-action-image=latest" >> $GITHUB_OUTPUT
           else
             echo "Use dev verifier image"
-            echo "insecure_skip_tls_verify=true" >> $GITHUB_OUTPUT
             echo "verifier-action-image=0.1.0" >> $GITHUB_OUTPUT
           fi
+          echo "insecure_skip_tls_verify=true" >> $GITHUB_OUTPUT
 
       - name: Checkout
         if: ${{ steps.check_build_required.outputs.run-build == 'true' }}
@@ -307,14 +306,14 @@ jobs:
         if: ${{ steps.check_report.conclusion == 'success' }}
         uses: hmarr/auto-approve-action@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.BOT_TOKEN }}
 
       - name: Merge PR
         id: merge_pr
         if: ${{ steps.approve_pr.conclusion == 'success' }}
         uses: pascalgn/automerge-action@v0.13.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           MERGE_METHOD: squash
           MERGE_LABELS: ""
 
