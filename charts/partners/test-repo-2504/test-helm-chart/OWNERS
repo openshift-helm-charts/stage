@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
 vendor:
   label: test-repo-2504
   name: test-new-user-659-2504
