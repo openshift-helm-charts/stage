@@ -11,7 +11,7 @@ keywords:
 - management
 - automation
 - infrastructure
-kubeVersion: '>= 1.26.0'
+kubeVersion: '>= 1.25.0'
 name: teststage-helm
 sources:
 - https://github.com/hashicorp/vault
