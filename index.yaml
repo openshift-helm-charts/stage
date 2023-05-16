@@ -230,6 +230,38 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-teststage-helm-0.21.0/teststage-helm-0.21.0.tgz
     version: 0.21.0
+  - annotations:
+      charts.openshift.io/digest: sha256:3c33a46dcc19f2036abf89eab53493164aa75db7e044971e55918e38a3fe512c
+      charts.openshift.io/lastCertifiedTimestamp: '2023-05-16T15:43:38.928343+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-05-16T15:44:17.838196+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.12'
+      charts.openshift.io/testedOpenShiftVersion: '4.12'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: a0c262a40bb20f68cbcda18edc3f22b37f80f967c79b06603e0df00509ad9b0b
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.25.0'
+    name: teststage-helm
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-teststage-helm-0.21.1/teststage-helm-0.21.1.tgz
+    version: 0.21.1
   container-test-viksss-stage-e2e:
   - annotations:
       charts.openshift.io/digest: sha256:df5e9cb9023473bf44ec95897fc73148adaa60e2c7382fee0ad971db00180388
@@ -4251,4 +4283,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-05-16T14:15:57.196364+00:00'
+generated: '2023-05-16T15:44:17.838196+00:00'
