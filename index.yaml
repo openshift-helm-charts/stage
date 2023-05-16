@@ -197,6 +197,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-test-helm-chart-3011-0.30.0/container-test-test-helm-chart-3011-0.30.0.tgz
     version: 0.30.0
+  container-test-teststage-helm:
+  - annotations:
+      charts.openshift.io/digest: sha256:11cda9193070980ccffa59034b7815dcf4445e4bfdf8360aab32552f40751488
+      charts.openshift.io/lastCertifiedTimestamp: '2023-05-16T14:15:17.900562+00:00'
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-05-16T14:15:57.196364+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.12'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 07a455de2cf0e0be2fe9e10c51d245ce5efaca23f39a1470296baa0eaf0ba6bb
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: teststage-helm
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-teststage-helm-0.21.0/teststage-helm-0.21.0.tgz
+    version: 0.21.0
   container-test-viksss-stage-e2e:
   - annotations:
       charts.openshift.io/digest: sha256:df5e9cb9023473bf44ec95897fc73148adaa60e2c7382fee0ad971db00180388
@@ -4218,4 +4251,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-05-15T16:04:02.105592+00:00'
+generated: '2023-05-16T14:15:57.196364+00:00'
