@@ -1,0 +1,10 @@
+chart:
+  name: mercury-check
+  shortDescription: Provide usernames in a comma-separated list
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
