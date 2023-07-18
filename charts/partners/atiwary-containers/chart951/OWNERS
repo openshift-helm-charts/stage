@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: op-cert
 vendor:
   label: atiwary-containers
   name: Red Hat, Inc.
