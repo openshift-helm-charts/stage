@@ -1,0 +1,10 @@
+chart:
+  name: helm-clone-project2
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
