@@ -1,5 +1,39 @@
 apiVersion: v1
 entries:
+  container-test-chart-951-redhat:
+  - annotations:
+      charts.openshift.io/digest: sha256:5fb3ab142dae9f1d1014df5f6bd7d0c6d8cb2d005e5db2be7155ef5227da6895
+      charts.openshift.io/lastCertifiedTimestamp: '2023-07-20T09:13:12.549534+00:00'
+      charts.openshift.io/name: chart-951-redhat
+      charts.openshift.io/provider: Anandprakash Tandale
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-07-20T09:13:52.832337+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.13'
+      charts.openshift.io/testedOpenShiftVersion: '4.13'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: c1d31c191215e4f5d5b837adc814d39ba63159a1ff9b9ed57466ad45a3748015
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.26.0'
+    name: chart-951-redhat
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-test-chart-951-redhat-0.21.67/chart-951-redhat-0.21.67.tgz
+    version: 0.21.67
   container-test-giriraj-project-helm-chart:
   - annotations:
       charts.openshift.io/digest: sha256:6d4bbedf9bcb725739af7c3f82f5c78b757755c68da92334e5af34c36f2b09dd
@@ -5375,4 +5409,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-07-19T17:37:58.502493+00:00'
+generated: '2023-07-20T09:13:52.832337+00:00'
