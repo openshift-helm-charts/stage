@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
 vendor:
   label: container-test
   name: Anandprakash Tandale
