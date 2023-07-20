@@ -1,0 +1,9 @@
+chart:
+  name: helmchart-951-webonly
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
