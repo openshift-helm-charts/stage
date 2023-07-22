@@ -2643,6 +2643,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.69/helm-e2e-rhcc-0.21.69.tgz
     version: 0.21.69
+  - annotations:
+      charts.openshift.io/digest: sha256:108e850f4c84f090d3eb5d241f563fa4432f4005e36d5decbf6c8730d7442478
+      charts.openshift.io/lastCertifiedTimestamp: '2023-07-22T16:54:04.588437+00:00'
+      charts.openshift.io/name: helm-e2e-rhcc
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-07-22T16:54:41.940515+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.13'
+      charts.openshift.io/testedOpenShiftVersion: '4.13'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 2d105280a8c04c92d764202e469dbdc65527429b85a52b0958f3a50a49a4ffe2
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.26.0'
+    name: helm-e2e-rhcc
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.70/helm-e2e-rhcc-0.21.70.tgz
+    version: 0.21.70
   opcert-e2e-testing-qetesting-helm-chart:
   - annotations:
       charts.openshift.io/digest: sha256:d29a78f932095b9a14b03ff85d819d61c70744e202754fc42911cd842cfebc58
@@ -5475,4 +5508,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-07-21T16:19:27.418816+00:00'
+generated: '2023-07-22T16:54:41.940515+00:00'
