@@ -7,7 +7,7 @@ metadata:
             VendorType: partner
             version: v1.2
         reportDigest: uint64:13846010875234806645
-        chart-uri: N/A
+        chart-uri: https://github.com/opcert/stage/raw/main/charts/partners/container-test/chart951-external/0.21.68/container-test-chart951-external-0.21.68.tgz
         digests:
             chart: sha256:e00a8397c97b212d24ba3d3ac19d71bb971856039129365e1d6748c6f8fc1aec
             package: 401a895977fba4571dc18703c6f59c3287c318e0f2f50ebc3141ccecd8d63e1b
