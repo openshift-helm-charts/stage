@@ -14,7 +14,7 @@ metadata:
         lastCertifiedTimestamp: "2023-07-24T12:19:43.630698+00:00"
         testedOpenShiftVersion: "4.13"
         supportedOpenShiftVersions: '>=4.13'
-        webCatalogOnly: true
+        webCatalogOnly: false
     chart:
         name: chart951-external
         home: https://www.vaultproject.io
