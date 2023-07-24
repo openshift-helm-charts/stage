@@ -34,6 +34,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-chart-951-redhat-0.21.67/chart-951-redhat-0.21.67.tgz
     version: 0.21.67
+  container-test-chart951-external:
+  - annotations:
+      charts.openshift.io/digest: sha256:d213b28c2e2908c65eb1b68889b85de93b8fecf2d0f9a125b8bfcf65378f4957
+      charts.openshift.io/lastCertifiedTimestamp: '2023-07-24T13:13:14.665892+00:00'
+      charts.openshift.io/name: chart-951-redhat
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-07-24T13:18:10.413647+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.13'
+      charts.openshift.io/testedOpenShiftVersion: '4.13'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: 11fea89f05c0b95024ea5151cacba35cbfd0c3c181dca8a3a18c6e64d8be4068
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.26.0'
+    name: chart951-external
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/bovem/external-helm-charts/raw/main/container-test-chart951-external-0.21.68.tgz
+    version: 0.21.68
   container-test-giriraj-project-helm-chart:
   - annotations:
       charts.openshift.io/digest: sha256:6d4bbedf9bcb725739af7c3f82f5c78b757755c68da92334e5af34c36f2b09dd
@@ -5541,4 +5574,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-07-23T16:26:04.273606+00:00'
+generated: '2023-07-24T13:18:10.413647+00:00'
