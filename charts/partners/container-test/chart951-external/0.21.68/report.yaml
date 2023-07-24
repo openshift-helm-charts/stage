@@ -6,17 +6,17 @@ metadata:
         profile:
             VendorType: partner
             version: v1.2
-        reportDigest: uint64:4154644964677649955
-        chart-uri: https://github.com/opcert/stage/raw/main/charts/partners/container-test/chart951-external/0.21.68/container-test-chart951-external-0.21.68.tgz
+        reportDigest: uint64:9659571132934285681
+        chart-uri: https://github.com/bovem/external-helm-charts/raw/main/container-test-chart951-external-0.21.68.tgz
         digests:
-            chart: sha256:d213b28c2e2908c65eb1b68889b85de93b8fecf2d0f9a125b8bfcf65378f4957
-            package: 2b6df211187cb44354de657ce0c847dc757ac3a131f0f911837852ccb5e541d1
-        lastCertifiedTimestamp: "2023-07-24T12:49:36.050046+00:00"
+            chart: sha256:adf3f8f5f2774d39cf84caa8e4dd6967aca0ffc5f5665bd01a7b732f38b267c1
+            package: dd0b06cca2b6dffb64335d84339e2c98021d086ef74fea24e1895d1d644ca1be
+        lastCertifiedTimestamp: "2023-07-24T13:05:57.793629+00:00"
         testedOpenShiftVersion: "4.13"
         supportedOpenShiftVersions: '>=4.13'
         webCatalogOnly: false
     chart:
-        name: chart951-external
+        name: chart-951-external
         home: https://www.vaultproject.io
         sources:
             - https://github.com/hashicorp/vault
@@ -47,58 +47,58 @@ metadata:
         type: ""
     chart-overrides: ""
 results:
-    - check: v1.0/contains-values
+    - check: v1.0/is-helm-v3
       type: Mandatory
       outcome: PASS
-      reason: Values file exist
-    - check: v1.0/has-readme
+      reason: API version is V2, used in Helm 3
+    - check: v1.0/signature-is-valid
+      type: Mandatory
+      outcome: SKIPPED
+      reason: 'Chart is not signed : Signature verification not required'
+    - check: v1.0/required-annotations-present
       type: Mandatory
       outcome: PASS
-      reason: Chart has a README
+      reason: All required annotations present
+    - check: v1.0/chart-testing
+      type: Mandatory
+      outcome: PASS
+      reason: Chart tests have passed
     - check: v1.1/images-are-certified
       type: Mandatory
       outcome: PASS
       reason: |-
         Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault-k8s:0.17.0-ubi
         Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault:1.11.2-ubi
-    - check: v1.0/signature-is-valid
-      type: Mandatory
-      outcome: SKIPPED
-      reason: 'Chart is not signed : Signature verification not required'
-    - check: v1.0/not-contains-crds
-      type: Mandatory
-      outcome: PASS
-      reason: Chart does not contain CRDs
     - check: v1.0/contains-test
       type: Mandatory
       outcome: PASS
       reason: Chart test files exist
-    - check: v1.0/contains-values-schema
+    - check: v1.0/contains-values
       type: Mandatory
       outcome: PASS
-      reason: Values schema file exist
-    - check: v1.0/helm-lint
-      type: Mandatory
-      outcome: PASS
-      reason: Helm lint successful
-    - check: v1.0/required-annotations-present
-      type: Mandatory
-      outcome: PASS
-      reason: All required annotations present
+      reason: Values file exist
     - check: v1.1/has-kubeversion
       type: Mandatory
       outcome: PASS
       reason: Kubernetes version specified
-    - check: v1.0/is-helm-v3
+    - check: v1.0/not-contains-crds
       type: Mandatory
       outcome: PASS
-      reason: API version is V2, used in Helm 3
+      reason: Chart does not contain CRDs
+    - check: v1.0/contains-values-schema
+      type: Mandatory
+      outcome: PASS
+      reason: Values schema file exist
+    - check: v1.0/has-readme
+      type: Mandatory
+      outcome: PASS
+      reason: Chart has a README
+    - check: v1.0/helm-lint
+      type: Mandatory
+      outcome: PASS
+      reason: Helm lint successful
     - check: v1.0/not-contain-csi-objects
       type: Mandatory
       outcome: PASS
       reason: CSI objects do not exist
-    - check: v1.0/chart-testing
-      type: Mandatory
-      outcome: PASS
-      reason: Chart tests have passed
 
