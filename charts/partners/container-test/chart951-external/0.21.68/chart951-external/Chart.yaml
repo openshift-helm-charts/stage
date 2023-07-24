@@ -12,7 +12,7 @@ keywords:
 - automation
 - infrastructure
 kubeVersion: '>= 1.26.0'
-name: chart-951-external
+name: chart951-external
 sources:
 - https://github.com/hashicorp/vault
 - https://github.com/hashicorp/vault-helm
