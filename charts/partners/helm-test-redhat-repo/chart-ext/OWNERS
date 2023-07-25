@@ -1,0 +1,10 @@
+chart:
+  name: chart-ext
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: helm-test-redhat-repo
+  name: test-stage-user-9
