@@ -1,0 +1,10 @@
+chart:
+  name: helm-redhat-new-user
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: test-internal-helm
+  name: test-stage-user-17
