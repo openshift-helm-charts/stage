@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
 vendor:
   label: test-internal-helm
   name: test-stage-user-17
