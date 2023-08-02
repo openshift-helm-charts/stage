@@ -5872,6 +5872,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/test-new-container-2023-test-helm-chat-0.21.0/test-helm-chat-0.21.0.tgz
     version: 0.21.0
+  test-web-new-user-new-user-ext:
+  - annotations:
+      charts.openshift.io/digest: sha256:646d4e9097b5abcda84f10636d6fc851c01e20e10ad8bcbff112c453dfcaac58
+      charts.openshift.io/lastCertifiedTimestamp: '2023-08-02T13:09:26.224261+00:00'
+      charts.openshift.io/name: new-user-ext
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-08-02T13:16:21.429684+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.13'
+    apiVersion: v2
+    appVersion: 1.11.2
+    description: Official HashiCorp Vault Chart
+    digest: ba8217139d8ad01dfc0028fe31f50583ba53c2e637607ed1be07fce2a5955b63
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: new-user-ext
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/bovem/external-helm-charts/raw/main/test-web-new-user-new-user-ext-0.21.0.tgz
+    version: 0.21.0
   test-web-new-user-web-new-user:
   - annotations:
       charts.openshift.io/digest: sha256:88cba0d995713200ef78ed22c19a4bc30d2ca7e918dfdf8411bee3f3c63eff97
@@ -5939,4 +5972,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2023-08-01T16:03:49.492620+00:00'
+generated: '2023-08-02T13:16:21.429684+00:00'
