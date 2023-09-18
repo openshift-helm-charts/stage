@@ -1,0 +1,9 @@
+chart:
+  name: web039
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
