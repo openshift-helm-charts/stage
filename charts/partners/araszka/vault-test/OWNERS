@@ -1,0 +1,10 @@
+chart:
+  name: vault-test
+  shortDescription: short
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: jsm84
+vendor:
+  label: araszka
+  name: Red Hat
