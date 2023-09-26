@@ -5,6 +5,7 @@ providerDelivery: false
 publicPgpKey: unknown
 users:
 - githubUsername: jsm84
+- githubUsername: acornett21
 vendor:
   label: araszka
   name: Red Hat
