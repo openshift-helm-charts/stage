@@ -1,0 +1,9 @@
+chart:
+  name: test-helm-1810-2023
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
