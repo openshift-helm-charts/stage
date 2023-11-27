@@ -1,0 +1,10 @@
+chart:
+  name: stageweb
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: test user
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
