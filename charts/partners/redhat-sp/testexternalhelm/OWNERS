@@ -1,0 +1,10 @@
+chart:
+  name: testexternalhelm
+  shortDescription: test
+providerDelivery: false
+publicPgpKey: dGVzdA==
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
