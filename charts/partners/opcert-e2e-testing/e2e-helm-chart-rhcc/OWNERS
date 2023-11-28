@@ -1,0 +1,11 @@
+chart:
+  name: e2e-helm-chart-rhcc
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
