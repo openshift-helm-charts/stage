@@ -1,0 +1,11 @@
+chart:
+  name: 415-testing-e2e-helm-chart-webonly
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
