@@ -1,0 +1,9 @@
+chart:
+  name: testing-webonly-helm-chart-415
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
