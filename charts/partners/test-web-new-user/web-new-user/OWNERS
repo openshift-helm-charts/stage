@@ -1,0 +1,11 @@
+chart:
+  name: web-new-user
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: test-web-new-user
+  name: test-stage-user-19
