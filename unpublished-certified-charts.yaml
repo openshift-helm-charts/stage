@@ -4925,6 +4925,38 @@ entries:
     urls:
     - N/A
     version: 0.21.136
+  - annotations:
+      charts.openshift.io/digest: sha256:6a58732fda6435633705fe60ba79cd500cbf46e6a053a471843353f0f27bfd18
+      charts.openshift.io/lastCertifiedTimestamp: '2024-02-08T17:05:32.415129+00:00'
+      charts.openshift.io/name: helm-chart-ocp413
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-02-08T17:08:51.943976+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 0f9d73476d8f7aa81ca155311792eef9770706356699ec8ff51f244981a50c23
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helm-chart-ocp413
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.21.137
   opcert-e2e-testing-testing-webonly-helm-chart-415:
   - annotations:
       charts.openshift.io/digest: sha256:65166eac3668fa7cbf9f6e97fda52c3bdc9602661794b0fe70aeb32e2d30fd77
@@ -5445,4 +5477,4 @@ entries:
     urls:
     - N/A
     version: 0.5.2
-generated: '2024-02-08T15:05:21.838526+00:00'
+generated: '2024-02-08T17:08:51.895843+00:00'
