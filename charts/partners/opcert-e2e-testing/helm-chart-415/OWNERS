@@ -1,9 +1,11 @@
 chart:
   name: helm-chart-415
-  shortDescription: unknown
+  shortDescription: helm-chart-415
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: bovem
+- githubUsername: opcert
 vendor:
   label: opcert-e2e-testing
   name: RED HAT
