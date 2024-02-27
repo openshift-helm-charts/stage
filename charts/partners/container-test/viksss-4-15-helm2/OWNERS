@@ -1,0 +1,9 @@
+chart:
+  name: viksss-4-15-helm2
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
