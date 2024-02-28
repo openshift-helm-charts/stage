@@ -1,0 +1,11 @@
+chart:
+  name: am-test-helm-chart
+  shortDescription: Contrary to popular belief, Lorem Ipsum is not simply random text.
+    It has roots in a piece of classical Latin
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: '@amgarud'
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
