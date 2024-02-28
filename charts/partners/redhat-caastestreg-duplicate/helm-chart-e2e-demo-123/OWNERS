@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-e2e-demo-123
+  shortDescription: helm-chart-e2e-demo-123 is a helm chart for E2E demonstration
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: opcert
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
