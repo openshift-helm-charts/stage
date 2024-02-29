@@ -1,0 +1,9 @@
+chart:
+  name: chart-helm-27021223
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: quay
+  name: test
