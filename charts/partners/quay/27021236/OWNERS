@@ -1,0 +1,9 @@
+chart:
+  name: '27021236'
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: quay
+  name: test
