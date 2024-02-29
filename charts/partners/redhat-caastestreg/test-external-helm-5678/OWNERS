@@ -1,0 +1,10 @@
+chart:
+  name: test-external-helm-5678
+  shortDescription: null
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg
+  name: RED HAT
