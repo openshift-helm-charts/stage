@@ -1,0 +1,9 @@
+chart:
+  name: helm01031730
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: quay
+  name: test
