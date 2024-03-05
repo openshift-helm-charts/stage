@@ -1,0 +1,10 @@
+chart:
+  name: test792
+  shortDescription: x666666666666666gfffffffffffffffffffffffv
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr
+vendor:
+  label: swatsolutions
+  name: SWAT Solutions
