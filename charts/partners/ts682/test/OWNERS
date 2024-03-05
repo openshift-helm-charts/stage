@@ -1,0 +1,9 @@
+chart:
+  name: test
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: ts682
+  name: rhn-support-e2e-02121909898738-Company
