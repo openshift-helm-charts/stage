@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: test-helm-chart-1352-0805
+  name: test-block-domain-new-001
