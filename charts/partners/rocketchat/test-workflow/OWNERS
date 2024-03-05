@@ -1,0 +1,10 @@
+chart:
+  name: test-workflow
+  shortDescription: Short desription
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: araszka
+vendor:
+  label: rocketchat
+  name: Rocket.Chat
