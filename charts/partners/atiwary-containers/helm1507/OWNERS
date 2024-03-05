@@ -1,0 +1,10 @@
+chart:
+  name: helm1507
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: testtt
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
