@@ -2,7 +2,7 @@ chart:
   name: helmchartchecklist
   shortDescription: This text is displayed on card previews in the Ecosystem catalog
 providerDelivery: false
-publicPgpKey: null
+publicPgpKey: unknown
 users:
 - githubUsername: vikasmulaje
 vendor:
