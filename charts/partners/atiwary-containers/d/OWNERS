@@ -1,0 +1,10 @@
+chart:
+  name: d
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kanchan04katare
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
