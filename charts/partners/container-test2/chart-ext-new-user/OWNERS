@@ -1,0 +1,9 @@
+chart:
+  name: chart-ext-new-user
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-test2
+  name: test-stage-user-7
