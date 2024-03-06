@@ -1,0 +1,10 @@
+chart:
+  name: testhelmgautam2
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gautamkrishnar
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
