@@ -1,0 +1,10 @@
+chart:
+  name: test-gautam-helm-external
+  shortDescription: test gautam helm internal
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gakrishn
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
