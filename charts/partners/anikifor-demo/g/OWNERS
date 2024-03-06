@@ -1,0 +1,9 @@
+chart:
+  name: g
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: anikifor-demo
+  name: login-test-login
