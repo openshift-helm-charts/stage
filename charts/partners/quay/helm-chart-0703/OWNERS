@@ -1,0 +1,13 @@
+chart:
+  name: helm-chart-0703
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gsanwa
+- githubUsername: skale
+- githubUsername: gautam
+- githubUsername: aishwatya
+vendor:
+  label: quay
+  name: test
