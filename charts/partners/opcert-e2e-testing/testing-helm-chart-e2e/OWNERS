@@ -1,0 +1,9 @@
+chart:
+  name: testing-helm-chart-e2e
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: opcert-e2e-testing
+  name: RED HAT
