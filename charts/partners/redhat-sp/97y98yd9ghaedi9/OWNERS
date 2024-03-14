@@ -1,9 +1,10 @@
 chart:
   name: 97y98yd9ghaedi9
   shortDescription: 6ehss
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: 6e
 vendor:
   label: redhat-sp
-  name: GLOBAL SUPPORT SERVI RED HAT, INC.
+  name: Red Hat, Inc.
