@@ -1,0 +1,10 @@
+chart:
+  name: viksss-chart-demo
+  shortDescription: Short repository description
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: vikasmulaje
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
