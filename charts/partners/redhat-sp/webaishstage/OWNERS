@@ -1,0 +1,10 @@
+chart:
+  name: webaishstage
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
