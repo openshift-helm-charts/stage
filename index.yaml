@@ -4923,6 +4923,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-testing-e2e-helm-chart-0.0.37/testing-e2e-helm-chart-0.0.37.tgz
     version: 0.0.37
+  - annotations:
+      charts.openshift.io/digest: sha256:99283cfedb3bf910a58132ba1e7e40d4b1ed48ac3aed01962bb8bb6b93fb237b
+      charts.openshift.io/lastCertifiedTimestamp: '2024-03-16T16:02:55.907881+00:00'
+      charts.openshift.io/name: testing-e2e-helm-chart
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-03-16T16:04:09.300685+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 62fce0125d48fcd0727db68aa24c731045a5560b154d6bc1507b1bb4a172ced7
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: testing-e2e-helm-chart
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-testing-e2e-helm-chart-0.0.38/testing-e2e-helm-chart-0.0.38.tgz
+    version: 0.0.38
   redhat-caastestreg-duplicate-helm-testing-5435:
   - annotations:
       charts.openshift.io/digest: sha256:9be63875e47c3f5815b32c70d28e5b38c27e74ed836e3d765f5026c8af7649a7
@@ -7823,4 +7856,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2024-03-15T16:04:02.690730+00:00'
+generated: '2024-03-16T16:04:09.237229+00:00'
