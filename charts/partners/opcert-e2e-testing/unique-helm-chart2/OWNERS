@@ -1,9 +1,11 @@
 chart:
   name: unique-helm-chart2
-  shortDescription: unknown
+  shortDescription: unique-helm-chart2
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: bovem
+- githubUsername: opcert
 vendor:
   label: opcert-e2e-testing
   name: RED HAT
