@@ -1,0 +1,10 @@
+chart:
+  name: '18031911'
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry
+  name: Test Company
