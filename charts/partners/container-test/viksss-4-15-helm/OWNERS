@@ -1,0 +1,11 @@
+chart:
+  name: viksss-4-15-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
