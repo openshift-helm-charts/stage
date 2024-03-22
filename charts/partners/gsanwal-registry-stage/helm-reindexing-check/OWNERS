@@ -1,0 +1,9 @@
+chart:
+  name: helm-reindexing-check
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: gsanwal-registry-stage
+  name: Test Compant Publish check
