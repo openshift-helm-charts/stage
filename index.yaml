@@ -565,6 +565,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-stage-helm-reindexing-check-0.0.2/helm-reindexing-check-0.0.2.tgz
     version: 0.0.2
+  - annotations:
+      charts.openshift.io/digest: sha256:f6b012671d510f247ce963524cdfd9829dc278f5bf82c54a01721987d651c147
+      charts.openshift.io/lastCertifiedTimestamp: '2024-03-22T15:43:31.627696+00:00'
+      charts.openshift.io/name: helm-reindexing-check
+      charts.openshift.io/provider: Test Compant Publish check
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-03-22T15:44:35.525835+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.12'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: e49b37e6a1fcab0f618d28e2aac1baea30ba65964b72d41289b6b6da9ad4ae1a
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.25.0'
+    name: helm-reindexing-check
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-stage-helm-reindexing-check-0.0.3/helm-reindexing-check-0.0.3.tgz
+    version: 0.0.3
   opcert-e2e-testing-helm-chart-415:
   - annotations:
       charts.openshift.io/digest: sha256:a2891595b40596cbbb60d327b80f803d1c36ac0c59be7dbbe56ac70aa3264fcb
@@ -8125,4 +8158,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/testopenshifthelmchart27021617-test-openshift-helm-chart-0.21.0/test-openshift-helm-chart-0.21.0.tgz
     version: 0.21.0
-generated: '2024-03-22T14:44:22.868649+00:00'
+generated: '2024-03-22T15:44:35.452118+00:00'
