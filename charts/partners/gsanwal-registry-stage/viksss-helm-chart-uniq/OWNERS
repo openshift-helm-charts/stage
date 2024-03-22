@@ -1,0 +1,11 @@
+chart:
+  name: viksss-helm-chart-uniq
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry-stage
+  name: Test Compant Publish check
