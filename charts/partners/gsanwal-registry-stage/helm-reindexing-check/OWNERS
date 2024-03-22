@@ -3,7 +3,9 @@ chart:
   shortDescription: unknown
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: bovem
+- githubUsername: opcert
 vendor:
   label: gsanwal-registry-stage
   name: Test Compant Publish check
