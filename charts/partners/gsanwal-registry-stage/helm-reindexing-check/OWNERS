@@ -1,0 +1,11 @@
+chart:
+  name: helm-reindexing-check
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: gsanwal-registry-stage
+  name: Test Compant Publish check
