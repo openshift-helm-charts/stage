@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-new-2203
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry-stage
+  name: Test Compant Publish check
