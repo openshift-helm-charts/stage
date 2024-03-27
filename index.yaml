@@ -34,6 +34,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-chart-27031203-0.0.2/chart-27031203-0.0.2.tgz
     version: 0.0.2
+  - annotations:
+      charts.openshift.io/digest: sha256:c7bf778628f60ee810f4d5040a6e0c775ca445e420c92ade8a832d95793a1992
+      charts.openshift.io/lastCertifiedTimestamp: '2024-03-27T10:30:41.924321+00:00'
+      charts.openshift.io/name: chart-27031203
+      charts.openshift.io/provider: Test Company
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-03-27T10:31:57.888044+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 9aa59d7c73d5d88bf9a770ebf94d10672527a3891575ccdbdce6770d05d57336
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: chart-27031203
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-chart-27031203-0.0.3/chart-27031203-0.0.3.tgz
+    version: 0.0.3
   container-test-chart-951-redhat:
   - annotations:
       charts.openshift.io/digest: sha256:5fb3ab142dae9f1d1014df5f6bd7d0c6d8cb2d005e5db2be7155ef5227da6895
@@ -8259,4 +8292,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-03-27T08:03:45.829888+00:00'
+generated: '2024-03-27T10:31:57.808947+00:00'
