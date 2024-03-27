@@ -1,5 +1,39 @@
 apiVersion: v1
 entries:
+  chart-27031203:
+  - annotations:
+      charts.openshift.io/digest: sha256:d6ea96ef4441bfac97c574d4fd794428f3d0a33f759d961a6d52019de1498e5b
+      charts.openshift.io/lastCertifiedTimestamp: '2024-03-27T08:02:38.622189+00:00'
+      charts.openshift.io/name: chart-27031203
+      charts.openshift.io/provider: Test Company
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-03-27T08:03:45.899441+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: ee0c04e4c89757bdd90740e8fc96290ca43f9b102d16765a6a840864a34a958d
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: chart-27031203
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-chart-27031203-0.0.2/chart-27031203-0.0.2.tgz
+    version: 0.0.2
   container-test-chart-951-redhat:
   - annotations:
       charts.openshift.io/digest: sha256:5fb3ab142dae9f1d1014df5f6bd7d0c6d8cb2d005e5db2be7155ef5227da6895
@@ -8225,4 +8259,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-03-26T14:06:43.637514+00:00'
+generated: '2024-03-27T08:03:45.829888+00:00'
