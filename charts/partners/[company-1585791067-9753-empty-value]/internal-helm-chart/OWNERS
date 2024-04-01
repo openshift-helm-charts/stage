@@ -1,9 +1,0 @@
-chart:
-  name: internal-helm-chart
-  shortDescription: This is a test repo
-publicPgpKey: null
-users:
-- githubUsername: rhrivero
-vendor:
-  label: '[company-1585791067-9753-empty-value]'
-  name: Hugo Rivero Test
