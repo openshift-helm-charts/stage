@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-0104
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: container-registry-01
+  name: Test
