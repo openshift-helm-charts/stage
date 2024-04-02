@@ -1,0 +1,9 @@
+chart:
+  name: test-helmchart-name-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: cont-repo-name-space-0204
+  name: Test
