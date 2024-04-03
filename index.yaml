@@ -497,6 +497,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-qe-e2e-container-helm-0.0.2/e2e-container-helm-0.0.2.tgz
     version: 0.0.2
+  - annotations:
+      charts.openshift.io/digest: sha256:40a171bef8147f8539d25f91b9c5612e5214d57db33dd2f2157f51c112d09eb0
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-03T07:03:42.672995+00:00'
+      charts.openshift.io/name: e2e-container-helm
+      charts.openshift.io/provider: Opcert Test Company
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-03T07:04:50.693461+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 3f2b808bdd68b84d7f04ba7b81843aba341ab6d808531e8ac584b6aac23b0e42
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: e2e-container-helm
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-qe-e2e-container-helm-0.0.3/e2e-container-helm-0.0.3.tgz
+    version: 0.0.3
   gsanwal-registry-helm-chart-1803:
   - annotations:
       charts.openshift.io/digest: sha256:f810f2c8231ceff02f4b0464727f2568a7ba943c38127f2c3c272f271b33c3fc
@@ -8394,4 +8427,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-04-03T06:24:38.087012+00:00'
+generated: '2024-04-03T07:04:50.626994+00:00'
