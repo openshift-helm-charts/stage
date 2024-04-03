@@ -463,6 +463,40 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-test-viksss-stage-e2e-0.21.0/container-test-viksss-stage-e2e-0.21.0.tgz
     version: 0.21.0
+  e2e-container-helm:
+  - annotations:
+      charts.openshift.io/digest: sha256:b97fb5e3106d63487a92f921bd428a9ca2139133afc375183b334ddcbf47f5cd
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-03T06:23:16.015334+00:00'
+      charts.openshift.io/name: e2e-container-helm
+      charts.openshift.io/provider: Opcert Test Company
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-03T06:24:38.154018+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 795226cd8b7a26a66bff3c4e8ae0b67e1143b050701cebd7ffe15ce8ee7aa977
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: e2e-container-helm
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-qe-e2e-container-helm-0.0.2/e2e-container-helm-0.0.2.tgz
+    version: 0.0.2
   gsanwal-registry-helm-chart-1803:
   - annotations:
       charts.openshift.io/digest: sha256:f810f2c8231ceff02f4b0464727f2568a7ba943c38127f2c3c272f271b33c3fc
@@ -8360,4 +8394,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-04-01T12:10:36.888205+00:00'
+generated: '2024-04-03T06:24:38.087012+00:00'
