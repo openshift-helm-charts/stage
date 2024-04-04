@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-external-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-regisrty-namespace-01
+  name: Test Company
