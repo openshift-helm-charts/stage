@@ -3,7 +3,8 @@ chart:
   shortDescription: unknown
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: bovem
 vendor:
   label: opcert-qe
   name: Opcert Test Company
