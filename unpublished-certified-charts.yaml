@@ -7334,4 +7334,37 @@ entries:
     urls:
     - N/A
     version: 0.5.2
-generated: '2024-04-05T10:18:05.262773+00:00'
+  web-catalog-helm-chart:
+  - annotations:
+      charts.openshift.io/digest: sha256:80550e20ae5123c9d90e167eb67ce1275c624811a5aa27d83818d717f6856ab5
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-05T10:55:44.350583+00:00'
+      charts.openshift.io/name: web-catalog-helm-chart
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-05T10:58:09.303003+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.15'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 909e0d9174660b3fdb3f402e2b1ba7ffc03806d794d41402bbdfd6199868b7f7
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: web-catalog-helm-chart
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.0.2
+generated: '2024-04-05T10:58:09.239960+00:00'
