@@ -530,6 +530,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-qe-e2e-container-helm-0.0.3/e2e-container-helm-0.0.3.tgz
     version: 0.0.3
+  external-helm-chart-05:
+  - annotations:
+      charts.openshift.io/digest: sha256:822d6b52446e75496871bdbfb8e811be72de10119d0c9b09dcdc1168fc06545f
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-05T11:08:40.887809+00:00'
+      charts.openshift.io/name: external-helm-chart-05
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-05T11:11:04.205362+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.15'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 1bd33a228c03cd1ed3940e257b6c287538c7694fba31b8d850ee8036489bb9fe
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: external-helm-chart-05
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/bovem/external-helm-charts/raw/main/charts/external-helm-chart-05-0.0.2.tgz
+    version: 0.0.2
   gsanwal-registry-helm-chart-1803:
   - annotations:
       charts.openshift.io/digest: sha256:f810f2c8231ceff02f4b0464727f2568a7ba943c38127f2c3c272f271b33c3fc
@@ -8527,4 +8560,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-04-05T10:30:43.974466+00:00'
+generated: '2024-04-05T11:11:04.136481+00:00'
