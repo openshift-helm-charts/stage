@@ -833,6 +833,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/container-regisrty-namespace-01-helmcharttestcomponent-0.0.2/helmcharttestcomponent-0.0.2.tgz
     version: 0.0.2
+  - annotations:
+      charts.openshift.io/digest: sha256:850c4ed6ae6e9c186307e41ae2ca7983a21e4f8e900ce740680e544c7bb9bde3
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-05T09:01:18.769833+00:00'
+      charts.openshift.io/name: helmcharttestcomponent
+      charts.openshift.io/provider: Test Company
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-05T09:02:22.370791+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 2bd375f7a5fe7c992235680062d9c2c13ca366d2cf6075382c2897d050c47a14
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helmcharttestcomponent
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/container-regisrty-namespace-01-helmcharttestcomponent-0.0.3/helmcharttestcomponent-0.0.3.tgz
+    version: 0.0.3
   opcert-e2e-testing-helm-chart-415:
   - annotations:
       charts.openshift.io/digest: sha256:a2891595b40596cbbb60d327b80f803d1c36ac0c59be7dbbe56ac70aa3264fcb
@@ -8461,4 +8494,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-04-03T11:14:39.282180+00:00'
+generated: '2024-04-05T09:02:22.302785+00:00'
