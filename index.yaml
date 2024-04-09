@@ -8392,6 +8392,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/test-helm-chart-test-helm-chart-08-24-0.0.3/test-helm-chart-08-24-0.0.3.tgz
     version: 0.0.3
+  - annotations:
+      charts.openshift.io/digest: sha256:7cefd2299877b14f114509e18eca14c5952dbac9d3909bfe2f96554736eace1e
+      charts.openshift.io/lastCertifiedTimestamp: '2024-04-09T14:28:20.001969+00:00'
+      charts.openshift.io/name: test-helm-chart-08-24
+      charts.openshift.io/provider: Test Company Stage
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-04-09T14:29:38.086889+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.14'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 8b3483a35c473d55110df296ee6fdad6a0550601e03e8cadcaa8229b209385b1
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: test-helm-chart-08-24
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/test-helm-chart-test-helm-chart-08-24-0.0.4/test-helm-chart-08-24-0.0.4.tgz
+    version: 0.0.4
   test-internal-helm-helm-redhat-new-user:
   - annotations:
       charts.openshift.io/digest: sha256:83237f12d61062568dcfcc762f61ad2286624c3ee797230fd7c64867003c66a8
@@ -8627,4 +8660,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-04-09T06:38:35.745655+00:00'
+generated: '2024-04-09T14:29:38.009671+00:00'
