@@ -1,0 +1,9 @@
+chart:
+  name: asds
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
