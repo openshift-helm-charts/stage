@@ -1,0 +1,9 @@
+chart:
+  name: helm-381425
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
