@@ -1,0 +1,9 @@
+chart:
+  name: helm-3984
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
