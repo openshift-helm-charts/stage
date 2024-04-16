@@ -5,6 +5,7 @@ providerDelivery: false
 publicPgpKey: unknown
 users:
 - githubUsername: spapat
+- githubUsername: opcert
 vendor:
   label: redhat-sp
   name: Red Hat, Inc.
