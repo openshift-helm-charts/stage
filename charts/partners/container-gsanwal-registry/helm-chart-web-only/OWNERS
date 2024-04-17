@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-web-only
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-gsanwal-registry
+  name: Test Queue changes
