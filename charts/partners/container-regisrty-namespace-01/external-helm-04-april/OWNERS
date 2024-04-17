@@ -1,0 +1,11 @@
+chart:
+  name: external-helm-04-april
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: apalautomation
+vendor:
+  label: container-regisrty-namespace-01
+  name: Test Company
