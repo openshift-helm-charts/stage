@@ -1,0 +1,10 @@
+chart:
+  name: stagerhcc
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test acc
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
