@@ -1,0 +1,10 @@
+chart:
+  name: helm1mt562
+  shortDescription: null
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: rnargotr
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
