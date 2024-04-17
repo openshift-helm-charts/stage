@@ -1,0 +1,10 @@
+chart:
+  name: helmcharttestcomponent
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: container-regisrty-namespace-01
+  name: Test Company
