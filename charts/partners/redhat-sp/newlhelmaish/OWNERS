@@ -1,0 +1,10 @@
+chart:
+  name: newlhelmaish
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.

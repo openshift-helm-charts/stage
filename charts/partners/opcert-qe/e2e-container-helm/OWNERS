@@ -1,0 +1,11 @@
+chart:
+  name: e2e-container-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
