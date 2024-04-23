@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-2305
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: rhn-support-gsanwal-container-shu-repo
+  name: Test Account
