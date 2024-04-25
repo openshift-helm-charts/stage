@@ -5,6 +5,7 @@ providerDelivery: false
 publicPgpKey: unknown
 users:
 - githubUsername: bovem
+- githubUsername: opcert
 vendor:
   label: container-registry-01
   name: Test
