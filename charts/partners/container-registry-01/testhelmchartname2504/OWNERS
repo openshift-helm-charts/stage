@@ -1,0 +1,9 @@
+chart:
+  name: testhelmchartname2504
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-01
+  name: Test
