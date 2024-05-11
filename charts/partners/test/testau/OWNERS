@@ -1,0 +1,10 @@
+chart:
+  name: testau
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aaa
+vendor:
+  label: test
+  name: Vikas Mulaje
