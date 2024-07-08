@@ -1,9 +1,10 @@
 chart:
   name: helm-chart-84589
-  shortDescription: unknown
+  shortDescription: Short Description
 providerDelivery: false
-publicPgpKey: unknown
-users: []
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
 vendor:
   label: viksss
   name: Viksss
