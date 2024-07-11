@@ -1,0 +1,9 @@
+chart:
+  name: chart-helm-1903
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: gsanwal-registry
+  name: Test Company

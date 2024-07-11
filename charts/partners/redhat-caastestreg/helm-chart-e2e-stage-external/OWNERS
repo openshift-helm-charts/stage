@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-e2e-stage-external
+  shortDescription: null
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg
+  name: RED HAT
