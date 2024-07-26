@@ -1,0 +1,10 @@
+chart:
+  name: helm-web-01
+  shortDescription: test
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
