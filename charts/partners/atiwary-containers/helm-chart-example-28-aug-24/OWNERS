@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-example-28-aug-24
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gkr-bot
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
