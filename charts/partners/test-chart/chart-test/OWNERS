@@ -1,0 +1,10 @@
+chart:
+  name: chart-test
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aishurne
+vendor:
+  label: test-chart
+  name: RH-stage-user-015
