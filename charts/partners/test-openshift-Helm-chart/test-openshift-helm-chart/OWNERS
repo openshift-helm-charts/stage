@@ -1,0 +1,11 @@
+chart:
+  name: test-openshift-helm-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: test-openshift-Helm-chart
+  name: test-qa-automation-user
