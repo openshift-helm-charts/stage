@@ -1,0 +1,10 @@
+chart:
+  name: ying-telco416
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: viksss
+  name: Viksss
