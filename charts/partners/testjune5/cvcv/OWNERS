@@ -1,0 +1,9 @@
+chart:
+  name: cvcv
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: testjune5
+  name: test-may29-user-Company
