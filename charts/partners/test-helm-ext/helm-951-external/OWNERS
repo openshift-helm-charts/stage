@@ -1,0 +1,9 @@
+chart:
+  name: helm-951-external
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-helm-ext
+  name: test-stage-user-6

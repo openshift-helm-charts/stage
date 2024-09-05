@@ -1,0 +1,10 @@
+chart:
+  name: test-webonly
+  shortDescription: test
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: redhat-sp
+  name: GLOBAL SUPPORT SERVI RED HAT, INC.
