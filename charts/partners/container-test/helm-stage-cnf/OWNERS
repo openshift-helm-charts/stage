@@ -1,0 +1,11 @@
+chart:
+  name: helm-stage-cnf
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Aishwarya-Urne
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
