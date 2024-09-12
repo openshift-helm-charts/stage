@@ -1,0 +1,10 @@
+chart:
+  name: demo-chart-1
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: KaleShivani
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.

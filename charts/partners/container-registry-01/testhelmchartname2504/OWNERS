@@ -1,0 +1,11 @@
+chart:
+  name: testhelmchartname2504
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: opcert
+vendor:
+  label: container-registry-01
+  name: Test
