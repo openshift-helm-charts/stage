@@ -1,0 +1,9 @@
+chart:
+  name: chart-name-2309
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-new-user-check-survey
+  name: TEst Company CWF
