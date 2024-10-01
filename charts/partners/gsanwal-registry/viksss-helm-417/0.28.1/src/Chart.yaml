@@ -13,7 +13,7 @@ keywords:
 - management
 - automation
 - infrastructure
-kubeVersion: '>= 1.30'
+kubeVersion: '>= 1.29'
 name: viksss-helm-417
 sources:
 - https://github.com/hashicorp/vault
