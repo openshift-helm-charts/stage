@@ -7,7 +7,7 @@ metadata:
             VendorType: partner
             version: v1.3
         reportDigest: uint64:12142678457412065591
-        chart-uri: 0.28.1/src
+        chart-uri: 0.28.1
         digests:
             chart: sha256:a9e549cf3a07c21d82cc9c9fba390a4f3b084a9683cb5e5f7117287cee50ae0c
         lastCertifiedTimestamp: "2024-10-01T06:05:54.794502-04:00"
