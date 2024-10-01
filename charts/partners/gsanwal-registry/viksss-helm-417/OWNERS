@@ -1,0 +1,10 @@
+chart:
+  name: viksss-helm-417
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: gsanwal-registry
+  name: Test Company
