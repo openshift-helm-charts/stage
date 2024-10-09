@@ -1,3 +1,8 @@
+{{/*
+Copyright (c) HashiCorp, Inc.
+SPDX-License-Identifier: MPL-2.0
+*/}}
+
 {{- template "vault.injectorEnabled" . -}}
 {{- if .injectorEnabled -}}
 {{- if eq (.Values.global.openshift | toString) "true" }}
@@ -16,9 +21,7 @@ spec:
       component: webhook
   ingress:
     - from:
-        - namespaceSelector:
-            matchLabels:
-              policy-group.network.openshift.io/host-network: ""
+        - namespaceSelector: {}
       ports:
       - port: 8080
         protocol: TCP
