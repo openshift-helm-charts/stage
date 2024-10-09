@@ -1,5 +1,5 @@
 annotations:
-  charts.openshift.io/name: viksss-helm-417
+  charts.openshift.io/name: helm-e2e-rhcc
 apiVersion: v2
 appVersion: 1.17.2
 description: Official HashiCorp Vault Chart
@@ -14,7 +14,7 @@ keywords:
 - automation
 - infrastructure
 kubeVersion: '>= 1.27.0'
-name: viksss-helm-417
+name: helm-e2e-rhcc
 sources:
 - https://github.com/hashicorp/vault
 - https://github.com/hashicorp/vault-helm
