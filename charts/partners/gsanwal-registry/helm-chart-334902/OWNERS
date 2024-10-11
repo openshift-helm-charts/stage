@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-334902
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: gsanwal-registry
+  name: Test Company
