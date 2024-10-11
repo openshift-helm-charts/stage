@@ -1,0 +1,10 @@
+chart:
+  name: hello-2662-shsbs
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gkr-bot
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.

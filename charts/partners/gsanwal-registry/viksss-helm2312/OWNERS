@@ -1,0 +1,9 @@
+chart:
+  name: viksss-helm2312
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: gsanwal-registry
+  name: Test Company

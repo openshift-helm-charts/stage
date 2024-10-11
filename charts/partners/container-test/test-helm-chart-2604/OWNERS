@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-2604
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Anandprakash Tandale

@@ -1,0 +1,11 @@
+chart:
+  name: viksss-helm-reindexing-release
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry
+  name: Test Company
