@@ -866,6 +866,40 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-stage-helm-chart-new-2203-0.0.2/helm-chart-new-2203-0.0.2.tgz
     version: 0.0.2
+  helm-chart-ocp413:
+  - annotations:
+      charts.openshift.io/digest: sha256:90de962238996151816d95a62ca1cb6c5de01fcc25cba5bd6a0b278b5e3bca70
+      charts.openshift.io/lastCertifiedTimestamp: '2024-10-14T11:33:16.212896+00:00'
+      charts.openshift.io/name: helm-chart-ocp413
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-10-14T11:34:21.251611+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.16'
+    apiVersion: v2
+    appVersion: 1.17.2
+    description: Official HashiCorp Vault Chart
+    digest: 77a5a837c34c70f16c2951127b9cc756732ab8a1b35fa7f56c5bd025e0e45ed1
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helm-chart-ocp413
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-chart-ocp413-0.22.0/helm-chart-ocp413-0.22.0.tgz
+    version: 0.22.0
   helm-demo-helm-demo-chart:
   - annotations:
       helm-chart.openshift.io/digest: sha256:4d144b8ab80cd33962743318deb50c25ac582de570b7067f8ae7844088872db9
@@ -9096,4 +9130,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-10-14T09:06:57.354399+00:00'
+generated: '2024-10-14T11:34:21.178216+00:00'
