@@ -1133,6 +1133,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.105/helm-e2e-rhcc-0.21.105.tgz
     version: 0.21.105
+  - annotations:
+      charts.openshift.io/digest: sha256:2e1e1c97881ae5e3b0f6e8afa9fc6f117a6daed0d1742492b26d81244655ebe7
+      charts.openshift.io/lastCertifiedTimestamp: '2024-10-17T11:22:44.35636+00:00'
+      charts.openshift.io/name: helm-e2e-rhcc
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-10-17T11:23:51.388275+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.16'
+    apiVersion: v2
+    appVersion: 1.17.2
+    description: Official HashiCorp Vault Chart
+    digest: de39eda1e364f01ebd72c59eb56eb0df56b491c4df19c52a3871b200ffd6e6eb
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helm-e2e-rhcc
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.106/helm-e2e-rhcc-0.21.106.tgz
+    version: 0.21.106
   helm-reindexing-check:
   - annotations:
       charts.openshift.io/digest: sha256:785c87c801a2c593426e552f54c328c2b2de296ea1a3b2620c0dbdd5a082f4f6
@@ -9130,4 +9163,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2024-10-14T11:34:21.178216+00:00'
+generated: '2024-10-17T11:23:51.290673+00:00'
