@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-98832
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: viksss
+  name: Viksss
