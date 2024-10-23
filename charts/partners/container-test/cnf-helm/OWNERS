@@ -1,0 +1,10 @@
+chart:
+  name: cnf-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Aishwarya-Urne
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
