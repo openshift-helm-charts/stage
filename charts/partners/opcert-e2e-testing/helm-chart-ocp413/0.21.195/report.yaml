@@ -16,7 +16,7 @@ metadata:
         supportedOpenShiftVersions: '>=4.14'
         webCatalogOnly: true
     chart:
-        name: helm-e2e-rhcc
+        name: helm-chart-ocp413
         home: https://www.vaultproject.io
         sources:
             - https://github.com/hashicorp/vault
@@ -41,7 +41,7 @@ metadata:
         appversion: 1.17.2
         deprecated: false
         annotations:
-            charts.openshift.io/name: helm-e2e-rhcc
+            charts.openshift.io/name: helm-chart-ocp413
         kubeversion: '>= 1.27.0'
         dependencies: []
         type: ""
