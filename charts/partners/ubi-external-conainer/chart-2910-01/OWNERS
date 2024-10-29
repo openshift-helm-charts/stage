@@ -1,0 +1,9 @@
+chart:
+  name: chart-2910-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: ubi-external-conainer
+  name: Test EDDL Company
