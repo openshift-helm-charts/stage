@@ -1,0 +1,9 @@
+chart:
+  name: my-chart-11111
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: araszka
+  name: Red Hat
