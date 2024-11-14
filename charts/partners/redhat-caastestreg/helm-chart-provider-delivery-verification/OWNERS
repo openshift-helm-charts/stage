@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-provider-delivery-verification
+  shortDescription: helm-chart-provider-delivery-verification
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg
+  name: RED HAT
