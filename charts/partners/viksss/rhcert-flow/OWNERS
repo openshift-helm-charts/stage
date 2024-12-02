@@ -1,0 +1,9 @@
+chart:
+  name: rhcert-flow
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: viksss
+  name: Viksss
