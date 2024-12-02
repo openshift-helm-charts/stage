@@ -1,0 +1,9 @@
+chart:
+  name: helm-234
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: for-redhat-12
+  name: test-qa-user-041
