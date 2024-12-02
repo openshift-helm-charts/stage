@@ -1,0 +1,10 @@
+chart:
+  name: helm-ext-951
+  shortDescription: erfer
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: dfver
+vendor:
+  label: test-helm-ext
+  name: test-stage-user-6
