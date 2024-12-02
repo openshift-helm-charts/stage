@@ -1,0 +1,10 @@
+chart:
+  name: helm-234
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test
+vendor:
+  label: rrredhat
+  name: test-qa-user-041
