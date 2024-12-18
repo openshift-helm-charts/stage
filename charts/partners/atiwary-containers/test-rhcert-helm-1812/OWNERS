@@ -1,0 +1,9 @@
+chart:
+  name: test-rhcert-helm-1812
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
