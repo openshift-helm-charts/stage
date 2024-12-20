@@ -1,0 +1,9 @@
+chart:
+  name: only-helm-chart-rhcert-case
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
