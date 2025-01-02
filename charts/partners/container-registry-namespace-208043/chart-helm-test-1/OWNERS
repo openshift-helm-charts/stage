@@ -1,10 +1,11 @@
 chart:
   name: chart-helm-test-1
-  shortDescription: Short Description
+  shortDescription: Short DescriptionShort Description
 providerDelivery: false
-publicPgpKey: cHVibGljcEdQa2V5
+publicPgpKey: cHVibGljcEdQa2V5cHVibGljcEdQa2V5
 users:
 - githubUsername: gsanwal
+- githubUsername: aurnegsanwal
 - githubUsername: aurne
 vendor:
   label: container-registry-namespace-208043
