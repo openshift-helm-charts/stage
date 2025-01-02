@@ -1,0 +1,9 @@
+chart:
+  name: chart-helm-test-1
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-208043
+  name: Test Connect User
