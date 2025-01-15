@@ -1,0 +1,10 @@
+chart:
+  name: external-helm-chart-05
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
