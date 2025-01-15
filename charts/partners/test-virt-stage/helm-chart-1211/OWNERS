@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-1211
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-virt-stage
+  name: Test company name
