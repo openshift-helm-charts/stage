@@ -1,0 +1,11 @@
+chart:
+  name: viksss-helm-4-16
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: viksss
+  name: Viksss
