@@ -1,0 +1,10 @@
+chart:
+  name: extstage
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test accc
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
