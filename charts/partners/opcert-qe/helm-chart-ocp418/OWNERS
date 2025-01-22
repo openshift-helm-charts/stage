@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-ocp418
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
