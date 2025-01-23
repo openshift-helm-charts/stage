@@ -1,0 +1,106 @@
+apiversion: v1
+kind: verify-report
+metadata:
+    tool:
+        verifier-version: 1.13.8
+        profile:
+            VendorType: partner
+            version: v1.3
+        reportDigest: uint64:5935870682256899869
+        chart-uri: N/A
+        digests:
+            chart: sha256:176f8be02bc920eb5e02713b0cfeab4ddafc43b75b852a7e84a8def05c53a720
+            package: 7b320ddd01ef0279940a72bf66e4a86403559ab274607f9807c9e94b1a88e89c
+        lastCertifiedTimestamp: "2025-01-23T04:52:29.983233-05:00"
+        testedOpenShiftVersion: "4.18"
+        supportedOpenShiftVersions: N/A
+        webCatalogOnly: true
+    chart:
+        name: helm-chart-ocp418
+        home: https://www.vaultproject.io
+        sources:
+            - https://github.com/hashicorp/vault
+            - https://github.com/hashicorp/vault-helm
+            - https://github.com/hashicorp/vault-k8s
+            - https://github.com/hashicorp/vault-csi-provider
+        version: 0.0.2
+        description: Official HashiCorp Vault Chart
+        keywords:
+            - vault
+            - security
+            - encryption
+            - secrets
+            - management
+            - automation
+            - infrastructure
+        maintainers: []
+        icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+        apiversion: v1
+        condition: ""
+        tags: ""
+        appversion: 1.17.2
+        deprecated: false
+        annotations:
+            apiVersion: v2
+            charts.openshift.io/name: helm-chart-ocp418
+        kubeversion: '>= 1.31.0'
+        dependencies: []
+        type: ""
+    chart-overrides: ""
+results:
+    - check: v1.0/chart-testing
+      type: Mandatory
+      outcome: PASS
+      reason: Chart tests have passed
+    - check: v1.0/has-readme
+      type: Mandatory
+      outcome: PASS
+      reason: Chart has a README
+    - check: v1.0/not-contain-csi-objects
+      type: Mandatory
+      outcome: PASS
+      reason: CSI objects do not exist
+    - check: v1.0/contains-values-schema
+      type: Mandatory
+      outcome: PASS
+      reason: Values schema file exist
+    - check: v1.1/images-are-certified
+      type: Mandatory
+      outcome: PASS
+      reason: No images to certify
+    - check: v1.0/has-notes
+      type: Optional
+      outcome: PASS
+      reason: Chart does contain NOTES.txt
+    - check: v1.0/required-annotations-present
+      type: Mandatory
+      outcome: PASS
+      reason: All required annotations present
+    - check: v1.1/has-kubeversion
+      type: Mandatory
+      outcome: FAIL
+      reason: Failed to match any known Kubernetes version to the provided range >= 1.31.0
+    - check: v1.0/is-helm-v3
+      type: Mandatory
+      outcome: FAIL
+      reason: API version is not V2, used in Helm 3
+    - check: v1.0/not-contains-crds
+      type: Mandatory
+      outcome: PASS
+      reason: Chart does not contain CRDs
+    - check: v1.0/contains-test
+      type: Mandatory
+      outcome: PASS
+      reason: Chart test files exist
+    - check: v1.0/signature-is-valid
+      type: Mandatory
+      outcome: SKIPPED
+      reason: 'Chart is not signed : Signature verification not required'
+    - check: v1.0/helm-lint
+      type: Mandatory
+      outcome: PASS
+      reason: Helm lint successful
+    - check: v1.0/contains-values
+      type: Mandatory
+      outcome: PASS
+      reason: Values file exist
