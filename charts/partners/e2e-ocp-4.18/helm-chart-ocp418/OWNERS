@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-ocp418
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: opcert,lslavkov
+vendor:
+  label: e2e-ocp-4.18
+  name: RED HAT
