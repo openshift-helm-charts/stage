@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-3009-check
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: retest-virt-stage
+  name: PLS Release Test User
