@@ -1,0 +1,9 @@
+chart:
+  name: webonly-new-user
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-internal-helm
+  name: test-stage-user-17
