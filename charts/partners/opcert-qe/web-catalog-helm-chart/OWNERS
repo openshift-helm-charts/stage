@@ -1,0 +1,10 @@
+chart:
+  name: web-catalog-helm-chart
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: opcert-qe
+  name: Opcert Test Company
