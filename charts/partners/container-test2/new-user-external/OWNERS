@@ -1,0 +1,10 @@
+chart:
+  name: new-user-external
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: container-test2
+  name: test-stage-user-7

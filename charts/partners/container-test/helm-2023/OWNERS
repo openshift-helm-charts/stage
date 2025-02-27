@@ -1,0 +1,10 @@
+chart:
+  name: helm-2023
+  shortDescription: null
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: lslavkov
+vendor:
+  label: container-test
+  name: Anandprakash Tandale

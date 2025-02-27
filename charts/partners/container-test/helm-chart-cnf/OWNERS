@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-cnf
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: maveric-tellrv
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
