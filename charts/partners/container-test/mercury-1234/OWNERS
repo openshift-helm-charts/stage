@@ -1,0 +1,11 @@
+chart:
+  name: mercury-1234
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: vmulaje
+vendor:
+  label: container-test
+  name: Anandprakash Tandale
