@@ -1,0 +1,10 @@
+chart:
+  name: helm-webonly-e2e-demo
+  shortDescription: null
+providerDelivery: true
+publicPgpKey: null
+users:
+- githubUsername: opcert
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
