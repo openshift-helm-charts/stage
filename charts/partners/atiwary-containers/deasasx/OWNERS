@@ -1,0 +1,10 @@
+chart:
+  name: deasasx
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Swatisoni112
+vendor:
+  label: atiwary-containers
+  name: Red Hat, Inc.
