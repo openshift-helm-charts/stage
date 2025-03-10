@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-537260
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-814239
+  name: Test Connect User
