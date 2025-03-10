@@ -1,9 +1,10 @@
 chart:
   name: demo-helm-chart
-  shortDescription: unknown
+  shortDescription: Also, this is a short description just for demo purpose.
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: kfejzic1
 vendor:
   label: araszka
   name: Red Hat
