@@ -1,0 +1,10 @@
+chart:
+  name: testtesthelm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Swatisoni112
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
