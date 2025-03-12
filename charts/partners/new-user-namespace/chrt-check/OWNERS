@@ -1,0 +1,9 @@
+chart:
+  name: chrt-check
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: new-user-namespace
+  name: Test New Company
