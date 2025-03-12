@@ -1,9 +1,10 @@
 chart:
   name: helmmar12
-  shortDescription: unknown
+  shortDescription: testhelm
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: Swatisoni112
 vendor:
   label: redhat-sp
   name: Red Hat, Inc.
