@@ -1,9 +1,12 @@
 chart:
   name: helm-chart-tekton-e2e
-  shortDescription: unknown
+  shortDescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+    euismod lorem.
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
 vendor:
   label: tekton-automation
   name: Viksss
