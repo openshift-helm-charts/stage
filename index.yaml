@@ -1365,6 +1365,39 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.109/helm-e2e-rhcc-0.21.109.tgz
     version: 0.21.109
+  - annotations:
+      charts.openshift.io/digest: sha256:3539b076e1fa704dfd0f86ef2d04cb48d9a15c044dff0297d91a79b7ca1e8de1
+      charts.openshift.io/lastCertifiedTimestamp: '2025-03-13T09:22:27.441129+00:00'
+      charts.openshift.io/name: helm-e2e-rhcc
+      charts.openshift.io/provider: RED HAT
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2025-03-13T09:23:30.442148+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.17'
+      charts.openshift.io/testedOpenShiftVersion: '4.17'
+    apiVersion: v2
+    appVersion: 1.17.2
+    description: Official HashiCorp Vault Chart
+    digest: 95941c9030759088c97575f8f688bad4f7fd7f94e2463cacc3d19005c09ef3cb
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.30.0'
+    name: helm-e2e-rhcc
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/opcert-e2e-testing-helm-e2e-rhcc-0.21.110/helm-e2e-rhcc-0.21.110.tgz
+    version: 0.21.110
   helm-reindexing-check:
   - annotations:
       charts.openshift.io/digest: sha256:785c87c801a2c593426e552f54c328c2b2de296ea1a3b2620c0dbdd5a082f4f6
@@ -9430,4 +9463,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2025-03-12T09:07:40.900641+00:00'
+generated: '2025-03-13T09:23:30.361625+00:00'
