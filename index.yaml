@@ -565,6 +565,40 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/araszka-demo-helm-chart-0.26.1/demo-helm-chart-0.26.1.tgz
     version: 0.26.1
+  demohelm23:
+  - annotations:
+      charts.openshift.io/digest: sha256:b003b3136465d258bad3de2055ed7e3fa150b76368df715a7e058691f8028384
+      charts.openshift.io/lastCertifiedTimestamp: '2025-03-17T07:27:48.482312+00:00'
+      charts.openshift.io/name: HashiCorp Vault
+      charts.openshift.io/provider: Red Hat, Inc.
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2025-03-17T07:28:53.630752+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.7'
+      charts.openshift.io/testedOpenShiftVersion: '4.17'
+    apiVersion: v2
+    appVersion: 1.15.1
+    description: Official HashiCorp Vault Chart
+    digest: 1a7df753c00b50f4fb35b812d45901675026940e74b592eeb79b56d5dafee60f
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.20.0-0'
+    name: demohelm23
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-demohelm23-0.26.1/demohelm23-0.26.1.tgz
+    version: 0.26.1
   e2e-container-helm:
   - annotations:
       charts.openshift.io/digest: sha256:b97fb5e3106d63487a92f921bd428a9ca2139133afc375183b334ddcbf47f5cd
@@ -9497,4 +9531,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2025-03-13T09:33:03.154878+00:00'
+generated: '2025-03-17T07:28:53.541033+00:00'
