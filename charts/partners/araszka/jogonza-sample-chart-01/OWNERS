@@ -1,0 +1,10 @@
+chart:
+  name: jogonza-sample-chart-01
+  shortDescription: short description for the chart
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: komish
+vendor:
+  label: araszka
+  name: Red Hat

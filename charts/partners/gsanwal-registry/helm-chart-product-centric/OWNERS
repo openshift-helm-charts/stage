@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-product-centric
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry
+  name: Test Company

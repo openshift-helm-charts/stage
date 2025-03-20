@@ -1,0 +1,10 @@
+chart:
+  name: demohelm23
+  shortDescription: test repo
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: Swatisoni112
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
