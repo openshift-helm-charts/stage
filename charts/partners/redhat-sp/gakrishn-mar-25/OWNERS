@@ -1,0 +1,10 @@
+chart:
+  name: gakrishn-mar-25
+  shortDescription: this is a test chart
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gkr-bot
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
