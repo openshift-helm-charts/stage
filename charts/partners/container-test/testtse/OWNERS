@@ -1,6 +1,7 @@
 chart:
   name: testtse
   shortDescription: unknown
+providerDelivery: false
 publicPgpKey: unknown
 users: []
 vendor:
