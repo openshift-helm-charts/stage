@@ -1,0 +1,9 @@
+chart:
+  name: '18031445'
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: reigrty
+  name: test

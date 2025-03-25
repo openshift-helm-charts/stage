@@ -1,0 +1,10 @@
+chart:
+  name: chart-27031203
+  shortDescription: Short Repo Desc
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: gsanwal-registry
+  name: Test Company

@@ -1,0 +1,9 @@
+chart:
+  name: helm-2595
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: forredhat11
+  name: test-qa-user-041
