@@ -1,0 +1,11 @@
+chart:
+  name: ege
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-56633
+  name: connect-sanity-automation-user
