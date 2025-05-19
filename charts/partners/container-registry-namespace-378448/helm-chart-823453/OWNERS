@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-823453
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-378448
+  name: connect-sanity-automation-user
