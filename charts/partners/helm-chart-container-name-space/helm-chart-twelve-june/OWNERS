@@ -4,7 +4,8 @@ chart:
 providerDelivery: false
 publicPgpKey: unknown
 users:
-- githubUsername: gsanwal
+- githubUsername: vikasmulaje
+- githubUsername: opcert
 vendor:
   label: helm-chart-container-name-space
   name: Survey new user
