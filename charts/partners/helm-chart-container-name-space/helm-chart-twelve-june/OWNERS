@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-twelve-june
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gsanwal
+vendor:
+  label: helm-chart-container-name-space
+  name: Survey new user
