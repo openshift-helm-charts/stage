@@ -1068,6 +1068,40 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/tekton-automation-helm-chart-tekton-e2e-0.22.2/helm-chart-tekton-e2e-0.22.2.tgz
     version: 0.22.2
+  helm-chart-twelve-june:
+  - annotations:
+      charts.openshift.io/digest: sha256:d91dbc4b45824aa3604c4cac6f4bdb1f4488f712b92d3a1b87ad2a06b4380535
+      charts.openshift.io/lastCertifiedTimestamp: '2025-06-12T09:42:30.1842+00:00'
+      charts.openshift.io/name: helm-chart-twelve-june
+      charts.openshift.io/provider: Survey new user
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2025-06-12T09:44:06.822956+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.17'
+    apiVersion: v2
+    appVersion: 1.17.2
+    description: Official HashiCorp Vault Chart
+    digest: acffce116684c9b44004f6e44e0a028aaec6cb6d5e2841ac893008f22af96819
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helm-chart-twelve-june
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/helm-chart-container-name-space-helm-chart-twelve-june-0.22.0/helm-chart-twelve-june-0.22.0.tgz
+    version: 0.22.0
   helm-demo-helm-demo-chart:
   - annotations:
       helm-chart.openshift.io/digest: sha256:4d144b8ab80cd33962743318deb50c25ac582de570b7067f8ae7844088872db9
@@ -9531,4 +9565,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2025-03-17T07:28:53.541033+00:00'
+generated: '2025-06-12T09:44:06.746520+00:00'
