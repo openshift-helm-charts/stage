@@ -1,0 +1,10 @@
+chart:
+  name: chartdemo
+  shortDescription: short desc
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aurne
+vendor:
+  label: test-certops-connect
+  name: certops-connect-user-01
