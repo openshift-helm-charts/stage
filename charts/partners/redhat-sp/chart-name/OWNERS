@@ -3,8 +3,7 @@ chart:
   shortDescription: unknown
 providerDelivery: false
 publicPgpKey: unknown
-users:
-- githubUsername: kanchan04katare
+users: []
 vendor:
   label: redhat-sp
   name: Red Hat, Inc.
