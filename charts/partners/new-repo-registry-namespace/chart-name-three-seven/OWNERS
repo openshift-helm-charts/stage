@@ -1,0 +1,9 @@
+chart:
+  name: chart-name-three-seven
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: new-repo-registry-namespace
+  name: Test Certops connect
