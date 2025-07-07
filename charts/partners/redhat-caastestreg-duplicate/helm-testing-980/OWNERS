@@ -1,0 +1,10 @@
+chart:
+  name: helm-testing-980
+  shortDescription: Some description
+providerDelivery: false
+publicPgpKey: null
+users:
+- githubUsername: opcert
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT

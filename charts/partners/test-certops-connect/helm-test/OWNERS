@@ -1,0 +1,10 @@
+chart:
+  name: helm-test
+  shortDescription: test short description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test-user
+vendor:
+  label: test-certops-connect
+  name: certops-connect-user-01
