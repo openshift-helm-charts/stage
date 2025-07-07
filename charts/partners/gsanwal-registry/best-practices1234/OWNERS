@@ -1,0 +1,9 @@
+chart:
+  name: best-practices1234
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: gsanwal-registry
+  name: Test Company

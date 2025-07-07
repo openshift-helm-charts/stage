@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-component-creation
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: test-container
+  name: Demo USer
