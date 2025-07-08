@@ -1,0 +1,9 @@
+chart:
+  name: chart-zerosix
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-container-0306-01
+  name: certops connect component

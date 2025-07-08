@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-08-24
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: test-helm-chart
+  name: Test Company Stage

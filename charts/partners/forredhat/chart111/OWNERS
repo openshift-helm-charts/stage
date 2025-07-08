@@ -1,0 +1,9 @@
+chart:
+  name: chart111
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: forredhat
+  name: company-demo-stage-01

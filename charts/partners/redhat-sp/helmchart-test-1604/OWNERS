@@ -1,0 +1,11 @@
+chart:
+  name: helmchart-test-1604
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: spapat
+- githubUsername: opcert
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
