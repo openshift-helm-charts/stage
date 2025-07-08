@@ -1,0 +1,9 @@
+chart:
+  name: web-cata-only
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-chart
+  name: RH-stage-user-015
