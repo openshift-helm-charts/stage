@@ -1,0 +1,9 @@
+chart:
+  name: checkboox-one
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-container-namespace-01
+  name: Test SSO Changes
