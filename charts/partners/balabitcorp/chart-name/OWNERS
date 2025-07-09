@@ -1,0 +1,12 @@
+chart:
+  name: chart-name
+  shortDescription: Lorem ipsum 123
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: araszka
+- githubUsername: mercury
+- githubUsername: user-123
+vendor:
+  label: balabitcorp
+  name: Balabit
