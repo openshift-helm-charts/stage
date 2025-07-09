@@ -1,0 +1,11 @@
+---
+chart:
+  name: psql-service
+  shortDescription: Lorem ipsum
+publicPgpKey:
+providerDelivery: True
+users:
+  - githubUsername: mmulholla
+vendor:
+  label: test-org
+  name: Balabit
