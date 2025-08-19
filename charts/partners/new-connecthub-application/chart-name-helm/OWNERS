@@ -1,0 +1,9 @@
+chart:
+  name: chart-name-helm
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: new-connecthub-application
+  name: Connecthub User
