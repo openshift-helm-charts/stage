@@ -1,0 +1,9 @@
+chart:
+  name: chart-20-08-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: new-test-certify
+  name: test
