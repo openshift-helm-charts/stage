@@ -1,0 +1,9 @@
+chart:
+  name: unified-2609
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
