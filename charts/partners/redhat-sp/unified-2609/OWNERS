@@ -1,9 +1,11 @@
 chart:
   name: unified-2609
-  shortDescription: unknown
+  shortDescription: Test UNified Changes
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
 vendor:
   label: redhat-sp
   name: Red Hat, Inc.
