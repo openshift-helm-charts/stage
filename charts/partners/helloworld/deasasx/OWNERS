@@ -1,0 +1,10 @@
+chart:
+  name: deasasx
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: Swatisoni112
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
