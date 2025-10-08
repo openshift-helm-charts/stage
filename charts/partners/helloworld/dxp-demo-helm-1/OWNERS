@@ -1,0 +1,10 @@
+chart:
+  name: dxp-demo-helm-1
+  shortDescription: test dxp test
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gautamkrishnar
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
