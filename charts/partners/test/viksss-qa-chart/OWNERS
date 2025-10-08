@@ -1,0 +1,10 @@
+chart:
+  name: viksss-qa-chart
+  shortDescription: test helm chart
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: vikasmulaje
+vendor:
+  label: test
+  name: Vikas Mulaje .
