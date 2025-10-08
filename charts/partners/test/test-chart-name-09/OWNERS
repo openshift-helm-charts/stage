@@ -1,0 +1,9 @@
+chart:
+  name: test-chart-name-09
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test
+  name: Vikas Mulaje .
