@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-setting
+  shortDescription: a
+providerDelivery: false
+publicPgpKey: YQ==
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: test
+  name: Vikas Mulaje .
