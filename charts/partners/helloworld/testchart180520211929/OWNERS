@@ -1,0 +1,11 @@
+chart:
+  name: testchart180520211929
+  shortDescription: Short Description1
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: diwanshi
+- githubUsername: gakrishna
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
