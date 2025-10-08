@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: test-repo-2504
+  name: test-new-user-659-2504
