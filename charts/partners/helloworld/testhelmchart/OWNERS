@@ -1,0 +1,10 @@
+chart:
+  name: testhelmchart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: dGVzdA==
+users:
+- githubUsername: yuyuyuyyuyuyu
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
