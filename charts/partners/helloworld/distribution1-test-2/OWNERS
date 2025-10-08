@@ -1,0 +1,10 @@
+chart:
+  name: distribution1-test-2
+  shortDescription: testss
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kan
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
