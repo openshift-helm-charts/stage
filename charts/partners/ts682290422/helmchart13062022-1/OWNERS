@@ -1,0 +1,10 @@
+chart:
+  name: helmchart13062022-1
+  shortDescription: vcvf
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotrxxfdfvddvdf
+vendor:
+  label: ts682290422
+  name: rhn-support-e2e-02121909898736-com
