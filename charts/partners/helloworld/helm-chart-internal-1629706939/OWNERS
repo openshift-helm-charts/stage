@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-internal-1629706939
+  shortDescription: sdfdsfsdafdsfsdbvbv
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: hgghvcc
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
