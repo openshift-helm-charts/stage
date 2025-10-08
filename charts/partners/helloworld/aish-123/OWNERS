@@ -1,0 +1,10 @@
+chart:
+  name: aish-123
+  shortDescription: a
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: a
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
