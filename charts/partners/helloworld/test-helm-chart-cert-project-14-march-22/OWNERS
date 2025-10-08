@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-cert-project-14-march-22
+  shortDescription: This text is displayed on card previews in the Ecosystem catalog
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: abhiskum
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
