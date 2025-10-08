@@ -1,0 +1,9 @@
+chart:
+  name: helm23
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: ts68217062022
+  name: test-qa-user-160620221-Company
