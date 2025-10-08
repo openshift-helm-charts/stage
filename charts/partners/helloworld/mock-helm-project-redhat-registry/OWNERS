@@ -1,0 +1,10 @@
+chart:
+  name: mock-helm-project-redhat-registry
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: testuser
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
