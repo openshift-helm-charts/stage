@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-new-user
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: hello-world-new-company
+  name: Test Onboarding
