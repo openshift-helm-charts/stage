@@ -1,0 +1,9 @@
+chart:
+  name: mychart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: '[company-1585789422-645-empty-value]'
+  name: Hugo Rivero Test
