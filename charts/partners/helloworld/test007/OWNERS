@@ -1,0 +1,11 @@
+chart:
+  name: test007
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aish
+- githubUsername: test
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
