@@ -1,0 +1,9 @@
+chart:
+  name: hellmchart1
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
