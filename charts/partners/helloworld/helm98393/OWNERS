@@ -1,0 +1,10 @@
+chart:
+  name: helm98393
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnarggotr
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
