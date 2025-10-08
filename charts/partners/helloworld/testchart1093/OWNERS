@@ -1,0 +1,10 @@
+chart:
+  name: testchart1093
+  shortDescription: This is short description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: '@amgarud'
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
