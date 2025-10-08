@@ -1,0 +1,9 @@
+chart:
+  name: unique-chart-987
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
