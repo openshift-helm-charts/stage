@@ -1,0 +1,10 @@
+chart:
+  name: helmext62
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr
+vendor:
+  label: some_label
+  name: rhn-test-1710-8-Company
