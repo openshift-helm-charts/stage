@@ -1,0 +1,10 @@
+chart:
+  name: helm-test-lslavkov
+  shortDescription: Lorem ipsinum
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: lslavkov
+vendor:
+  label: test
+  name: Vikas Mulaje .
