@@ -1,0 +1,10 @@
+chart:
+  name: chart-2910-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: obi-non-special-namespace-check
+  name: Test New user email
