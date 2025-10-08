@@ -1,0 +1,12 @@
+chart:
+  name: ted
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test
+- githubUsername: ui
+- githubUsername: api
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
