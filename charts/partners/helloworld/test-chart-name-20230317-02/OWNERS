@@ -1,0 +1,9 @@
+chart:
+  name: test-chart-name-20230317-02
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
