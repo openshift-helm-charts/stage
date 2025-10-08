@@ -1,0 +1,10 @@
+chart:
+  name: test-new-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: containertest
+  name: test-pfs-659-test
