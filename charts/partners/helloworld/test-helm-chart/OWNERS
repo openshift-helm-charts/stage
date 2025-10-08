@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: marcorandria+github@gmail.com
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
