@@ -1,0 +1,10 @@
+chart:
+  name: hello-world-sgsb
+  shortDescription: test
+providerDelivery: false
+publicPgpKey: dHJldGV0ZXQ=
+users:
+- githubUsername: gautamkrishnar
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
