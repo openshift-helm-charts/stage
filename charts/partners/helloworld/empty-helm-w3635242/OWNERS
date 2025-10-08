@@ -1,0 +1,10 @@
+chart:
+  name: empty-helm-w3635242
+  shortDescription: hello
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: helloworld
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
