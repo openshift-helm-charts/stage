@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-6-ksns
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: dgsdgfg
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
