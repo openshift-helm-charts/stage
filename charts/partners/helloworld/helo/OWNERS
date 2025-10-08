@@ -1,0 +1,10 @@
+chart:
+  name: helo
+  shortDescription: test
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: khatare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
