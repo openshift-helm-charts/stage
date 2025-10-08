@@ -1,0 +1,10 @@
+chart:
+  name: test
+  shortDescription: helm chart that works
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kanchan04katare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
