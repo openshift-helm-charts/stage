@@ -1,0 +1,9 @@
+chart:
+  name: ytt-kjhg
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
