@@ -1,0 +1,10 @@
+chart:
+  name: helm-test-project-github
+  shortDescription: helm-test-project-githubhelm-test-project-github
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kanchan04katare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
