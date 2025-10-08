@@ -1,0 +1,10 @@
+chart:
+  name: dscsv
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr
+vendor:
+  label: swatsolutions
+  name: SWAT Solutions
