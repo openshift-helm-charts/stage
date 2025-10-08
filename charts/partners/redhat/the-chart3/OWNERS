@@ -1,9 +1,10 @@
 chart:
   name: the-chart3
   shortDescription: helm chart that works
+providerDelivery: false
 publicPgpKey: 60231520DB22FBA43C1C28978E95064F8C3E81A7
 users:
 - githubUsername: lina-is-here
 vendor:
   label: redhat
-  name: REDHAT
+  name: Red Hat
