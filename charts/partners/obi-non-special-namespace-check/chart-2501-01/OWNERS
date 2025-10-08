@@ -1,0 +1,9 @@
+chart:
+  name: chart-2501-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: obi-non-special-namespace-check
+  name: Test New user email
