@@ -1,0 +1,11 @@
+chart:
+  name: am-test-chart
+  shortDescription: 'It is a long established fact that a reader will be distracted
+    by the readable content of a page '
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: amgarud
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
