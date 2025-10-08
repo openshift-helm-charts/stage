@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-internal
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: test-new-user-openstack
+  name: test-on-new11009
