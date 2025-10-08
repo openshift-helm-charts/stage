@@ -1,0 +1,10 @@
+chart:
+  name: sds
+  shortDescription: vcvf
+providerDelivery: false
+publicPgpKey: c2Rz
+users:
+- githubUsername: rnargotr
+vendor:
+  label: test68922
+  name: rhn-support-e2e-02121909898729-Company
