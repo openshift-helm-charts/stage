@@ -1,0 +1,10 @@
+chart:
+  name: helm14
+  shortDescription: test5
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr5
+vendor:
+  label: ts682290422
+  name: rhn-support-e2e-02121909898736-com
