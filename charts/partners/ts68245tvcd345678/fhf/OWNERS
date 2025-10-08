@@ -1,0 +1,9 @@
+chart:
+  name: fhf
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: ts68245tvcd345678
+  name: rhn-support-e2e-02121909898765-company
