@@ -1,0 +1,10 @@
+chart:
+  name: test-internal-project-helm-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: a60924148a9b77a2ff5f7b786-1
+  name: test-new-onboard1340
