@@ -1,0 +1,9 @@
+chart:
+  name: fff
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: swatsolutions
+  name: SWAT Solutions
