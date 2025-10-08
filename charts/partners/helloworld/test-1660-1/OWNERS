@@ -1,0 +1,10 @@
+chart:
+  name: test-1660-1
+  shortDescription: a
+providerDelivery: false
+publicPgpKey: Z3l1aWd5dWllZ3lodWlnaHRnZWk=
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
