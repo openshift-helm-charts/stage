@@ -1,0 +1,10 @@
+chart:
+  name: helm11
+  shortDescription: testtttttttttttttttttttttttttttttttttttttttttttttt
+providerDelivery: false
+publicPgpKey: dGVzdC10ZXN0
+users:
+- githubUsername: yuyuyuyyuyuyu
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
