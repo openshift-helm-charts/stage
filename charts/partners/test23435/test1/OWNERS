@@ -1,0 +1,10 @@
+chart:
+  name: test1
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: d2Z3ZWY=
+users:
+- githubUsername: test22424
+vendor:
+  label: test23435
+  name: rhc-final-qa2
