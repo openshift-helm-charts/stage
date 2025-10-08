@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-500885
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test
+  name: Vikas Mulaje .
