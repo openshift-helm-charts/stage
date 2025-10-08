@@ -1,0 +1,10 @@
+chart:
+  name: test-unique
+  shortDescription: dd
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: ddd
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
