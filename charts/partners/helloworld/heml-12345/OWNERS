@@ -1,0 +1,10 @@
+chart:
+  name: heml-12345
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aish
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
