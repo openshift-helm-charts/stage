@@ -1,0 +1,10 @@
+chart:
+  name: test-12-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: test
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
