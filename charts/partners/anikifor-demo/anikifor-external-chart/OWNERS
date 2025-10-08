@@ -1,0 +1,10 @@
+chart:
+  name: anikifor-external-chart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: lina-is-here
+vendor:
+  label: anikifor-demo
+  name: login-test-login
