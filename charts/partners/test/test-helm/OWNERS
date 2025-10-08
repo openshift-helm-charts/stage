@@ -1,0 +1,10 @@
+chart:
+  name: test-helm
+  shortDescription: test
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: apal@redhat.com
+vendor:
+  label: test
+  name: Vikas Mulaje .
