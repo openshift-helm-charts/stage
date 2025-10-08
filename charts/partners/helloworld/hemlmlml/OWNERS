@@ -1,0 +1,10 @@
+chart:
+  name: hemlmlml
+  shortDescription: https://gitlab.cee.redhat.com/customer-platform/rhc-products-listing-tests
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: khatare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
