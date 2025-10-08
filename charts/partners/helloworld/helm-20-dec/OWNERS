@@ -1,0 +1,10 @@
+chart:
+  name: helm-20-dec
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: testtt
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
