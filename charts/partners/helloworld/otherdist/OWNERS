@@ -1,0 +1,10 @@
+chart:
+  name: otherdist
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: testacc
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
