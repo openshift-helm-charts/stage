@@ -1,0 +1,10 @@
+chart:
+  name: test-dev-bot
+  shortDescription: helm chart that works
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: lina-is-here
+vendor:
+  label: redhat
+  name: Red Hat
