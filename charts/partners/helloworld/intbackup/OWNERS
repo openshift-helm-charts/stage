@@ -1,0 +1,10 @@
+chart:
+  name: intbackup
+  shortDescription: dgrt
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr5fdg
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
