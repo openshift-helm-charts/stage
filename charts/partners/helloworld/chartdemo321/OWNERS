@@ -1,0 +1,10 @@
+chart:
+  name: chartdemo321
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: tesdemo
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
