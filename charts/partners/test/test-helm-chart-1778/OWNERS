@@ -1,0 +1,10 @@
+chart:
+  name: test-helm-chart-1778
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: sawalgiriraj
+vendor:
+  label: test
+  name: Vikas Mulaje .
