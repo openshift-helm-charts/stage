@@ -1,0 +1,10 @@
+chart:
+  name: he
+  shortDescription: Repository Description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kkatare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
