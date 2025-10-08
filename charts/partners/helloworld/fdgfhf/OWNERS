@@ -1,0 +1,10 @@
+chart:
+  name: fdgfhf
+  shortDescription: vcvf
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rnargotr
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
