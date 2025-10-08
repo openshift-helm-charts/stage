@@ -1,0 +1,10 @@
+chart:
+  name: distribution
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: dpandey
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
