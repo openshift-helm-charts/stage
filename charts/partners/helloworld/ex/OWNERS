@@ -1,0 +1,10 @@
+chart:
+  name: ex
+  shortDescription: https://gitlab.cee.redhat.com/customer-platform/rhc-products-listing-tests
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kkatare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
