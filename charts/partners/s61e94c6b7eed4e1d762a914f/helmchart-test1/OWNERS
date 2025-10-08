@@ -1,0 +1,9 @@
+chart:
+  name: helmchart-test1
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: s61e94c6b7eed4e1d762a914f
+  name: redhat
