@@ -1,0 +1,11 @@
+chart:
+  name: hhh
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: bovem
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
