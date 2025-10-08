@@ -1,0 +1,10 @@
+chart:
+  name: testhelmchart
+  shortDescription: sc
+providerDelivery: false
+publicPgpKey: c3hk
+users:
+- githubUsername: xsdc
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
