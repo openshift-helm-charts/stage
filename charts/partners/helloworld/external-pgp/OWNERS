@@ -1,0 +1,10 @@
+chart:
+  name: external-pgp
+  shortDescription: short
+providerDelivery: false
+publicPgpKey: ZmRz
+users:
+- githubUsername: kanchan04katare
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
