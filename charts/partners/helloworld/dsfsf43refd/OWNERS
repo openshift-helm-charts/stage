@@ -1,0 +1,10 @@
+chart:
+  name: dsfsf43refd
+  shortDescription: vcvf
+providerDelivery: false
+publicPgpKey: eGN4Yw==
+users:
+- githubUsername: rnargotr
+vendor:
+  label: helloworld
+  name: Red Hat, Inc.
