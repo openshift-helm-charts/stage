@@ -1,0 +1,10 @@
+chart:
+  name: mychart
+  shortDescription: test only - short
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: rhrivero
+vendor:
+  label: '[company-1585791067-9753-empty-value]'
+  name: Hugo Rivero Test
