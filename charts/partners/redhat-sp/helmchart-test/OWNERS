@@ -1,9 +1,10 @@
 chart:
   name: helmchart-test
   shortDescription: Dockerfile.noyum
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: kkatare@redhat.com
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
