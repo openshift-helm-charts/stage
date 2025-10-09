@@ -1,9 +1,10 @@
 chart:
   name: helm80290q3
   shortDescription: wef
+providerDelivery: false
 publicPgpKey: c2Q=
 users:
 - githubUsername: sef
 vendor:
   label: redhat-sp
-  name: GLOBAL SUPPORT SERVI RED HAT, INC.
+  name: Red Hat, Inc.
