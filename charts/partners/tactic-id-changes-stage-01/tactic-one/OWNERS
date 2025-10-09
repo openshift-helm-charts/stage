@@ -1,0 +1,9 @@
+chart:
+  name: tactic-one
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: tactic-id-changes-stage-01
+  name: Test Tactic id changes
