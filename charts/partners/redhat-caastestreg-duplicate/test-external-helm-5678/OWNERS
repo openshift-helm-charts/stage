@@ -1,0 +1,10 @@
+chart:
+  name: test-external-helm-5678
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
