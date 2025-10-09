@@ -2,7 +2,7 @@ chart:
   name: araszka-test
   shortDescription: Description
 providerDelivery: false
-publicPgpKey: null
+publicPgpKey: unknown
 users:
 - githubUsername: Allda
 vendor:
