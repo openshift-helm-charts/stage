@@ -2,7 +2,7 @@ chart:
   name: helm-test-e2e
   shortDescription: This text is displayed on card previews in the Ecosystem catalog
 providerDelivery: true
-publicPgpKey: null
+publicPgpKey: unknown
 users:
 - githubUsername: opcert
 vendor:
