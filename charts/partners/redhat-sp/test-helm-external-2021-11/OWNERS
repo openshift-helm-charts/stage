@@ -1,9 +1,10 @@
 chart:
   name: test-helm-external-2021-11
   shortDescription: 'Helm -external '
+providerDelivery: false
 publicPgpKey: SGVsbSAtZXh0ZXJuYWwg
 users:
 - githubUsername: sawalgiriraj
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
