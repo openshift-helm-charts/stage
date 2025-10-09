@@ -1,0 +1,10 @@
+chart:
+  name: test-helm
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: test-helm-incomplete
+vendor:
+  label: container-test
+  name: Vikas Mulaje
