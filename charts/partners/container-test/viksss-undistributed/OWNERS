@@ -1,9 +1,9 @@
 chart:
   name: viksss-undistributed
   shortDescription: unknown
-providerDelivery: false
+providerDelivery: true
 publicPgpKey: unknown
 users: []
 vendor:
   label: container-test
-  name: Anandprakash Tandale
+  name: Vikas Mulaje
