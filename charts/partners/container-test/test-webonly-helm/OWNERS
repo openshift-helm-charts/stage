@@ -1,0 +1,10 @@
+chart:
+  name: test-webonly-helm
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: container-test
+  name: Vikas Mulaje
