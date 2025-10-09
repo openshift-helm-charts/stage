@@ -1,9 +1,10 @@
 chart:
   name: chart-internal-001
   shortDescription: test repo
+providerDelivery: false
 publicPgpKey: dGVzdA==
 users:
 - githubUsername: sawalgiriraj
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
