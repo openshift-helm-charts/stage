@@ -1,9 +1,10 @@
 chart:
   name: helmext2007
-  shortDescription: null
-publicPgpKey: null
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: rnargotr
 vendor:
   label: redhat-sp
-  name: GLOBAL SUPPORT SERVI RED HAT, INC.
+  name: Red Hat, Inc.
