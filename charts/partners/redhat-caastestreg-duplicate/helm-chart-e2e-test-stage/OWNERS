@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-e2e-test-stage
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
