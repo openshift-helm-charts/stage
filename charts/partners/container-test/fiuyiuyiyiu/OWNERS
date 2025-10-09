@@ -1,9 +1,10 @@
 chart:
   name: fiuyiuyiyiu
   shortDescription: a
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: sawalgiriraj
 vendor:
   label: container-test
-  name: Anandprakash Tandale
+  name: Vikas Mulaje
