@@ -2,10 +2,10 @@ chart:
   name: helm-web-02
   shortDescription: test
 providerDelivery: true
-publicPgpKey: null
+publicPgpKey: unknown
 users:
 - githubUsername: Aishwarya-Urne
 - githubUsername: vikasmulaje
 vendor:
   label: redhat-sp
-  name: GLOBAL SUPPORT SERVI RED HAT, INC.
+  name: Red Hat, Inc.
