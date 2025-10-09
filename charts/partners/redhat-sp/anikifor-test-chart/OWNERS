@@ -1,9 +1,10 @@
 chart:
   name: anikifor-test-chart
   shortDescription: short
+providerDelivery: false
 publicPgpKey: aajh
 users:
 - githubUsername: lina-is-here
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
