@@ -1,9 +1,10 @@
 chart:
   name: sd
-  shortDescription: null
-publicPgpKey: null
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: dfd
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
