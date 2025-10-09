@@ -1,6 +1,7 @@
 chart:
   name: anothertest
   shortDescription: unknown
+providerDelivery: false
 publicPgpKey: unknown
 users: []
 vendor:
