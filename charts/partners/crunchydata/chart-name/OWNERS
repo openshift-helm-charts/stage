@@ -1,0 +1,11 @@
+chart:
+  name: chart-name
+  shortDescription: Lorem ipsum
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: araszka
+- githubUsername: mercury-1
+vendor:
+  label: crunchydata
+  name: Crunchy Data
