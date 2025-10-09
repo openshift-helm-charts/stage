@@ -1,9 +1,10 @@
 chart:
   name: chart-internal-final-1
   shortDescription: '@'
+providerDelivery: false
 publicPgpKey: QS1AYiRnJCpHSjEyMzQ1fg==
 users:
 - githubUsername: sawalgiriraj
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
