@@ -1,10 +1,10 @@
 chart:
   name: helm-2023
-  shortDescription: null
+  shortDescription: unknown
 providerDelivery: false
-publicPgpKey: null
+publicPgpKey: unknown
 users:
 - githubUsername: lslavkov
 vendor:
   label: container-test
-  name: Anandprakash Tandale
+  name: Vikas Mulaje
