@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-5678
+  shortDescription: helm-chart-5678
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+vendor:
+  label: redhat-caastestreg-duplicate
+  name: RED HAT
