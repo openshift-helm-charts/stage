@@ -1,8 +1,11 @@
 chart:
   name: test-final-helm8798-yugedusg
   shortDescription: unknown
+providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: test-aish
+- githubUsername: test-kanchan
 vendor:
   label: ibm
-  name: IBM
+  name: IBM Corporation
