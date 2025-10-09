@@ -1,9 +1,10 @@
 chart:
   name: external-helm2
   shortDescription: https://connect.stage.redhat.com/projects/60e952b4b37dbc384adbe554/overview
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: kkatare
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
