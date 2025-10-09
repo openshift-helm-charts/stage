@@ -1,10 +1,10 @@
 chart:
   name: viksss-stage-e2e
   shortDescription: test chart for helm certification
-providerDelivery: true
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: vikasmulaje
 vendor:
   label: container-test
-  name: Anandprakash Tandale
+  name: Vikas Mulaje
