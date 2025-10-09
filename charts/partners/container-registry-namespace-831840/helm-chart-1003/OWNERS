@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-1003
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-831840
+  name: connect-sanity-automation-user
