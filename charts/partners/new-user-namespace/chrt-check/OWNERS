@@ -6,4 +6,4 @@ publicPgpKey: unknown
 users: []
 vendor:
   label: new-user-namespace
-  name: Test New Company
+  name: 'Test New Company: Stage Update'
