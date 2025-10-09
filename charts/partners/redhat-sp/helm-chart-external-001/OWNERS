@@ -1,9 +1,10 @@
 chart:
   name: helm-chart-external-001
-  shortDescription: null
+  shortDescription: unknown
+providerDelivery: false
 publicPgpKey: dGVzdA==
 users:
 - githubUsername: sawalgiriraj
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
