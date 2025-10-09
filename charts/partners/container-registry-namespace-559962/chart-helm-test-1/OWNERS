@@ -1,0 +1,11 @@
+chart:
+  name: chart-helm-test-1
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-559962
+  name: Test Connect User
