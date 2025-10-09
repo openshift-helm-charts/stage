@@ -1,0 +1,11 @@
+chart:
+  name: mercury-123
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: vmulaje
+vendor:
+  label: container-test
+  name: Vikas Mulaje
