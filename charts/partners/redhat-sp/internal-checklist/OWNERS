@@ -1,9 +1,10 @@
 chart:
   name: internal-checklist
   shortDescription: This text is displayed on card previews in the Ecosystem catalog
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: kanchan04katare
 vendor:
   label: redhat-sp
-  name: Red Hat Inc.
+  name: Red Hat, Inc.
