@@ -1,9 +1,10 @@
 chart:
   name: helmstage2007
   shortDescription: vcvf
-publicPgpKey: null
+providerDelivery: false
+publicPgpKey: unknown
 users:
 - githubUsername: rnargotrzxzxz
 vendor:
   label: redhat-sp
-  name: GLOBAL SUPPORT SERVI RED HAT, INC.
+  name: Red Hat, Inc.
