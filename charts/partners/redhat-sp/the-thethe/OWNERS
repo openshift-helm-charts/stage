@@ -1,0 +1,10 @@
+chart:
+  name: the-thethe
+  shortDescription: Short repository description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: kkatare
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
