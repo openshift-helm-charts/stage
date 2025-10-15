@@ -1,0 +1,11 @@
+chart:
+  name: chart-vendor-indepen
+  shortDescription: 'test vendor independence '
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
+vendor:
+  label: vendor-independance
+  name: Red Hat, Inc.
