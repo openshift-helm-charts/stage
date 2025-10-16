@@ -1,0 +1,9 @@
+chart:
+  name: helm-ext
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-independent-2
+  name: Red Hat, Inc.
