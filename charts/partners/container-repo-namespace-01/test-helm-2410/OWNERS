@@ -1,0 +1,9 @@
+chart:
+  name: test-helm-2410
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-repo-namespace-01
+  name: Red Hat, Inc.
