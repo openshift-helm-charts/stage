@@ -1,0 +1,9 @@
+chart:
+  name: oct-31-10
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-independance
+  name: Red Hat, Inc.
