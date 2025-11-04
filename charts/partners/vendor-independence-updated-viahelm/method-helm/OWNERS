@@ -1,0 +1,9 @@
+chart:
+  name: method-helm
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-independence-updated-viahelm
+  name: Red Hat, Inc.
