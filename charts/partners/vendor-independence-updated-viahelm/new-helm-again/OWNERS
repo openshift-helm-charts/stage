@@ -1,0 +1,9 @@
+chart:
+  name: new-helm-again
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-independence-updated-viahelm
+  name: Red Hat, Inc.
