@@ -1,0 +1,11 @@
+chart:
+  name: helm-new-vendortest
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
+vendor:
+  label: vendor-independence-updated-viahelm
+  name: Red Hat, Inc.
