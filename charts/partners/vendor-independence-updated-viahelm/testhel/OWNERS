@@ -1,0 +1,11 @@
+chart:
+  name: testhel
+  shortDescription: Short repository descriptionShort repository description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: test12
+vendor:
+  label: vendor-independence-updated-viahelm
+  name: Red Hat, Inc.
