@@ -1,0 +1,11 @@
+chart:
+  name: ext-helm-new
+  shortDescription: bovembovembovembovembovem
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: test1
+vendor:
+  label: vendor-independence-updated-viahelm
+  name: Red Hat, Inc.
