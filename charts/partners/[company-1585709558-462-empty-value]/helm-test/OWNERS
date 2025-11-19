@@ -1,0 +1,11 @@
+chart:
+  name: helm-test
+  shortDescription: Short repository descriptionShort repository description
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: bovem
+- githubUsername: test123
+vendor:
+  label: '[company-1585709558-462-empty-value]'
+  name: Red Hat
