@@ -1,0 +1,10 @@
+chart:
+  name: helm-chart-16-12
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: gsanwal
+vendor:
+  label: vendor-independance
+  name: Red Hat, Inc.
