@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-17-12
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: testing16122025
+  name: Red Hat, Inc.
