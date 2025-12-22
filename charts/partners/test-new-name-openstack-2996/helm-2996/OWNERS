@@ -1,0 +1,9 @@
+chart:
+  name: helm-2996
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: test-new-name-openstack-2996
+  name: Red Hat, Inc.
