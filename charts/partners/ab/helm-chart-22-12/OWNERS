@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-22-12
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: ab
+  name: Test Low Grade
