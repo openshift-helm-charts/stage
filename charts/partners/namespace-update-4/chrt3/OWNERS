@@ -1,0 +1,10 @@
+chart:
+  name: chrt3
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+vendor:
+  label: namespace-update-4
+  name: Test
