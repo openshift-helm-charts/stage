@@ -1,9 +1,12 @@
 chart:
   name: helm-chart-heck
-  shortDescription: unknown
+  shortDescription: helm-chart-26-12-check
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: gsanwal
+- githubUsername: opcert
+- githubUsername: tbak
 vendor:
   label: testing16122025
   name: Red Hat, Inc.
