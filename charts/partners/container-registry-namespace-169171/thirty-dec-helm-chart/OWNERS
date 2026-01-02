@@ -1,0 +1,11 @@
+chart:
+  name: thirty-dec-helm-chart
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-169171
+  name: AERUMA GROUP SDN. BHD.
