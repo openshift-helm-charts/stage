@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-05-01
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-169171
+  name: AERUMA GROUP SDN. BHD.
