@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-twenty-nine
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-973466
+  name: AERUMA GROUP SDN. BHD.
