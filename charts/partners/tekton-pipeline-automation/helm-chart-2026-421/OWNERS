@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-2026-421
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
+vendor:
+  label: tekton-pipeline-automation
+  name: Winnipeg School Division
