@@ -1,0 +1,11 @@
+chart:
+  name: one-test
+  shortDescription: 'Short repository description *  '
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aurne
+- githubUsername: gsanwal
+vendor:
+  label: container-registry-namespace-759787
+  name: AERUMA GROUP SDN. BHD.
