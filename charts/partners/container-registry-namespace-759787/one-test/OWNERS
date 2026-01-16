@@ -1,0 +1,9 @@
+chart:
+  name: one-test
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-759787
+  name: AERUMA GROUP SDN. BHD.
