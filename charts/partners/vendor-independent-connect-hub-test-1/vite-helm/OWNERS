@@ -1,0 +1,10 @@
+chart:
+  name: vite-helm
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users:
+- githubUsername: aurne
+vendor:
+  label: vendor-independent-connect-hub-test-1
+  name: Red Hat, Inc.
