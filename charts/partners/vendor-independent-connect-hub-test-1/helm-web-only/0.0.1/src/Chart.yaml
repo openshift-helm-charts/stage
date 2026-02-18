@@ -20,4 +20,4 @@ sources:
   - https://github.com/hashicorp/vault-helm
   - https://github.com/hashicorp/vault-k8s
   - https://github.com/hashicorp/vault-csi-provider
-version: 0.22.2
+version: 0.0.1
