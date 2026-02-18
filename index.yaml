@@ -1735,6 +1735,40 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/redhat-sp-helm-stage-rhcc-1604-0.0.2/helm-stage-rhcc-1604-0.0.2.tgz
     version: 0.0.2
+  helm-web-only:
+  - annotations:
+      charts.openshift.io/digest: sha256:bc8aada83623ce3bb8dd6531a8b81012010af3259227cb21c137bfb7e2a7992d
+      charts.openshift.io/lastCertifiedTimestamp: '2026-02-18T11:45:31.400669+00:00'
+      charts.openshift.io/name: helm-web-only
+      charts.openshift.io/provider: Red Hat, Inc.
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2026-02-18T11:46:51.314461+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.19'
+    apiVersion: v2
+    appVersion: 1.17.2
+    description: Official HashiCorp Vault Chart
+    digest: 83162f1a4805c949f951efbb51cf79d998eb31601a40dbfe99b8256f17d625f2
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: helm-web-only
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/openshift-helm-charts/stage/releases/download/vendor-independent-connect-hub-test-1-helm-web-only-0.0.1/helm-web-only-0.0.1.tgz
+    version: 0.0.1
   helmcharttestcomponent:
   - annotations:
       charts.openshift.io/digest: sha256:4e6b9ff7d7fc3781720aecd5aa53ee31a191981bb18cafbe8e653bb5cf1d5b94
@@ -9666,4 +9700,4 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/stage/releases/download/gsanwal-registry-viksss-helm-reindexing-release-0.0.2/viksss-helm-reindexing-release-0.0.2.tgz
     version: 0.0.2
-generated: '2026-01-20T10:34:52.122757+00:00'
+generated: '2026-02-18T11:46:51.238765+00:00'
