@@ -1,0 +1,9 @@
+chart:
+  name: chart-helm-feb-ninteen
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-2996
+  name: Red Hat, Inc.
