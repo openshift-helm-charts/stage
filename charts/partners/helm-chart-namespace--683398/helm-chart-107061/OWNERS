@@ -1,0 +1,11 @@
+chart:
+  name: helm-chart-107061
+  shortDescription: Short Description
+providerDelivery: false
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: helm-chart-namespace--683398
+  name: SARL SOLLIX
