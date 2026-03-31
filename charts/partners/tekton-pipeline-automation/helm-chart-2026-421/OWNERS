@@ -3,7 +3,9 @@ chart:
   shortDescription: unknown
 providerDelivery: true
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
+- githubUsername: lslavkov
 vendor:
   label: tekton-pipeline-automation
   name: Winnipeg School Division
