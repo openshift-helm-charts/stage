@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-624509
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: helm-chart-namespace--594748
+  name: SARL SOLLIX
