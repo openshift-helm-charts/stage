@@ -1,0 +1,9 @@
+chart:
+  name: helm-chart-764736
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-271925
+  name: SARL SOLLIX
