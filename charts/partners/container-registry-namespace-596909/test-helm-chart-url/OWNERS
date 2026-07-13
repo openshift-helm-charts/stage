@@ -1,0 +1,11 @@
+chart:
+  name: test-helm-chart-url
+  shortDescription: Short Description
+providerDelivery: true
+publicPgpKey: cHVibGljcEdQa2V5
+users:
+- githubUsername: gsanwal
+- githubUsername: aurne
+vendor:
+  label: container-registry-namespace-596909
+  name: SARL SOLLIX
