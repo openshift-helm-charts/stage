@@ -1,0 +1,9 @@
+chart:
+  name: checkhelmchart
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: container-registry-namespace-339801
+  name: SARL SOLLIX
