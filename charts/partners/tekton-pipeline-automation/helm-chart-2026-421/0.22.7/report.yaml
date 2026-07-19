@@ -1,0 +1,107 @@
+apiversion: v1
+kind: verify-report
+metadata:
+    tool:
+        verifier-version: 1.15.0
+        profile:
+            VendorType: partner
+            version: v1.3
+        reportDigest: uint64:16002092095117813599
+        chart-uri: N/A
+        digests:
+            chart: sha256:ca86fcb0ef8ecbddc1bc14934d9520eec686ceab5a283a458d809a794d9a2ae7
+            package: 6b8872149b0fc65992d0d51b36f6d2b776048e54138759c17c3e38e55ec5f459
+        lastCertifiedTimestamp: "2026-07-19T19:03:40.818857+02:00"
+        testedOpenShiftVersion: "4.21"
+        supportedOpenShiftVersions: '>=4.14'
+        webCatalogOnly: true
+    chart:
+        name: helm-chart-2026-421
+        home: https://www.vaultproject.io
+        sources:
+            - https://github.com/hashicorp/vault
+            - https://github.com/hashicorp/vault-helm
+            - https://github.com/hashicorp/vault-k8s
+            - https://github.com/hashicorp/vault-csi-provider
+        version: 0.22.7
+        description: Official HashiCorp Vault Chart
+        keywords:
+            - vault
+            - security
+            - encryption
+            - secrets
+            - management
+            - automation
+            - infrastructure
+        maintainers: []
+        icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+        apiversion: v2
+        condition: ""
+        tags: ""
+        appversion: 1.17.2
+        deprecated: false
+        annotations:
+            charts.openshift.io/name: helm-chart-2026-421
+        kubeversion: '>= 1.27.0'
+        dependencies: []
+        type: ""
+    chart-overrides: ""
+results:
+    - check: v1.1/images-are-certified
+      type: Mandatory
+      outcome: PASS
+      reason: |-
+        Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault-k8s:1.4.2-ubi
+        Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault:1.17.2-ubi
+    - check: v1.0/signature-is-valid
+      type: Mandatory
+      outcome: SKIPPED
+      reason: 'Chart is not signed : Signature verification not required'
+    - check: v1.0/contains-values-schema
+      type: Mandatory
+      outcome: PASS
+      reason: Values schema file exist
+    - check: v1.1/has-kubeversion
+      type: Mandatory
+      outcome: PASS
+      reason: Kubernetes version specified
+    - check: v1.0/required-annotations-present
+      type: Mandatory
+      outcome: PASS
+      reason: All required annotations present
+    - check: v1.0/contains-values
+      type: Mandatory
+      outcome: PASS
+      reason: Values file exist
+    - check: v1.0/has-readme
+      type: Mandatory
+      outcome: PASS
+      reason: Chart has a README
+    - check: v1.0/helm-lint
+      type: Mandatory
+      outcome: PASS
+      reason: Helm lint successful
+    - check: v1.0/is-helm-v3
+      type: Mandatory
+      outcome: PASS
+      reason: API version is V2, used in Helm 3
+    - check: v1.0/has-notes
+      type: Optional
+      outcome: PASS
+      reason: Chart does contain NOTES.txt
+    - check: v1.0/not-contain-csi-objects
+      type: Mandatory
+      outcome: PASS
+      reason: CSI objects do not exist
+    - check: v1.0/not-contains-crds
+      type: Mandatory
+      outcome: PASS
+      reason: Chart does not contain CRDs
+    - check: v1.0/chart-testing
+      type: Mandatory
+      outcome: PASS
+      reason: Chart tests have passed
+    - check: v1.0/contains-test
+      type: Mandatory
+      outcome: PASS
+      reason: Chart test files exist
