@@ -1,9 +1,11 @@
 chart:
   name: viksss-wed29
-  shortDescription: unknown
+  shortDescription: test helm chart
 providerDelivery: false
 publicPgpKey: unknown
-users: []
+users:
+- githubUsername: opcert
+- githubUsername: vikasmulaje
 vendor:
   label: tekton-pipeline-automation
   name: Winnipeg School Division
