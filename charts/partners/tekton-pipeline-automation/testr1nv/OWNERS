@@ -1,0 +1,9 @@
+chart:
+  name: testr1nv
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: tekton-pipeline-automation
+  name: Winnipeg School Division
