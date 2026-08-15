@@ -1,0 +1,9 @@
+chart:
+  name: helm-for-cnf
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: tekton-pipeline-automation
+  name: Winnipeg School Division
