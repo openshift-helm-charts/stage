@@ -1,0 +1,9 @@
+chart:
+  name: ag15
+  shortDescription: unknown
+providerDelivery: true
+publicPgpKey: unknown
+users: []
+vendor:
+  label: tekton-pipeline-automation
+  name: Winnipeg School Division
