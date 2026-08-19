@@ -1,0 +1,9 @@
+chart:
+  name: ewswgx
+  shortDescription: unknown
+providerDelivery: false
+publicPgpKey: unknown
+users: []
+vendor:
+  label: vendor-independent-connect-hub-test-2
+  name: International Business Machines Corporation
