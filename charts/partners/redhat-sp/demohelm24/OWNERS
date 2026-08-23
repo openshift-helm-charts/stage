@@ -1,0 +1,10 @@
+chart:
+  name: demohelm24
+  shortDescription: test repo
+providerDelivery: true
+publicPgpKey: unknown
+users:
+- githubUsername: aycohen-ai
+vendor:
+  label: redhat-sp
+  name: Red Hat, Inc.
