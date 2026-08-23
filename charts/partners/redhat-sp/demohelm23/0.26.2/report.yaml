@@ -6,14 +6,15 @@ metadata:
         profile:
             VendorType: partner
             version: v1.3
-        reportDigest: uint64:1853606176128240513
-        chart-uri: src/
+        reportDigest: uint64:4905262179550192610
+        chart-uri: N/A
         digests:
             chart: sha256:62a119676229514b35a7bb62f74333bb11683c45e401a48db20828b714298aa2
-        lastCertifiedTimestamp: "2026-08-23T11:10:17.369795+02:00"
-        testedOpenShiftVersion: "4.18"
+            package: fa66291f78f4b8fba595d867340671106aa7a93b587d65e2aa6d879fc6777642
+        lastCertifiedTimestamp: "2026-08-23T19:20:46.048035+02:00"
+        testedOpenShiftVersion: "4.17"
         supportedOpenShiftVersions: '>=4.17'
-        webCatalogOnly: false
+        webCatalogOnly: true
     chart:
         name: demohelm23
         home: https://www.vaultproject.io
@@ -46,10 +47,10 @@ metadata:
         type: ""
     chart-overrides: ""
 results:
-    - check: v1.0/helm-lint
+    - check: v1.1/images-are-certified
       type: Mandatory
       outcome: PASS
-      reason: Helm lint successful
+      reason: 'Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault:1.17.2-ubi'
     - check: v1.0/not-contain-csi-objects
       type: Mandatory
       outcome: PASS
@@ -58,30 +59,26 @@ results:
       type: Mandatory
       outcome: PASS
       reason: All required annotations present
-    - check: v1.0/chart-testing
-      type: Mandatory
-      outcome: PASS
-      reason: Chart tests have passed
-    - check: v1.0/contains-values-schema
-      type: Mandatory
-      outcome: PASS
-      reason: Values schema file exist
-    - check: v1.0/has-notes
-      type: Optional
-      outcome: PASS
-      reason: Chart does contain NOTES.txt
-    - check: v1.0/not-contains-crds
-      type: Mandatory
-      outcome: PASS
-      reason: Chart does not contain CRDs
     - check: v1.0/has-readme
       type: Mandatory
       outcome: PASS
       reason: Chart has a README
-    - check: v1.0/signature-is-valid
+    - check: v1.0/chart-testing
       type: Mandatory
-      outcome: SKIPPED
-      reason: 'Chart is not signed : Signature verification not required'
+      outcome: PASS
+      reason: Chart tests have passed
+    - check: v1.0/has-notes
+      type: Optional
+      outcome: PASS
+      reason: Chart does contain NOTES.txt
+    - check: v1.0/helm-lint
+      type: Mandatory
+      outcome: PASS
+      reason: Helm lint successful
+    - check: v1.0/not-contains-crds
+      type: Mandatory
+      outcome: PASS
+      reason: Chart does not contain CRDs
     - check: v1.0/contains-test
       type: Mandatory
       outcome: PASS
@@ -90,15 +87,19 @@ results:
       type: Mandatory
       outcome: PASS
       reason: Values file exist
-    - check: v1.1/images-are-certified
-      type: Mandatory
-      outcome: PASS
-      reason: 'Image is Red Hat certified : registry.connect.redhat.com/hashicorp/vault:1.17.2-ubi'
-    - check: v1.0/is-helm-v3
-      type: Mandatory
-      outcome: PASS
-      reason: API version is V2, used in Helm 3
     - check: v1.1/has-kubeversion
       type: Mandatory
       outcome: PASS
       reason: Kubernetes version specified
+    - check: v1.0/is-helm-v3
+      type: Mandatory
+      outcome: PASS
+      reason: API version is V2, used in Helm 3
+    - check: v1.0/signature-is-valid
+      type: Mandatory
+      outcome: SKIPPED
+      reason: 'Chart is not signed : Signature verification not required'
+    - check: v1.0/contains-values-schema
+      type: Mandatory
+      outcome: PASS
+      reason: Values schema file exist
